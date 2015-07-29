@@ -18,7 +18,13 @@
         "yiisoft/yii2": ">=2.0.4",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "dmstr/yii2-adminlte-asset": "2.1.3"
+        "dmstr/yii2-adminlte-asset": "2.1.3",
+        "omnilight/yii2-shopping-cart": "1.2.1",
+        "creocoder/yii2-nested-set-behavior": "0.9.0",
+        "metalguardian/yii2-fotorama-widget": "1.0.0",
+        "2amigos/yii2-tinymce-widget": "1.1.1",
+        "zxbodya/yii2-gallery-manager": "dev-master",
+        "kartik-v/yii2-tabs-x": "v1.2.1"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

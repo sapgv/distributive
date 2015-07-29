@@ -12,7 +12,7 @@ use yii\bootstrap\Nav;
                 <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
             </div>
             <div class="pull-left info">
-                <p>Alexander Pierce</p>
+                <p><?= \Yii::$app->user->identity->username;?></p>
 
                 <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
@@ -36,7 +36,10 @@ use yii\bootstrap\Nav;
                 'encodeLabels' => false,
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    '<li class="header">Menu Yii2</li>',
+                    '<li class="header">Меню</li>',
+                    ['label' => '<i class="fa fa-circle"></i><span>Виды номенклатуры</span>', 'url' => ['/view-product']],
+                    ['label' => '<i class="fa fa-circle"></i><span>Свойства характеристик</span>', 'url' => ['/property-characteristic']],
+                    ['label' => '<i class="fa fa-cubes"></i><span>Товары</span>', 'url' => ['/products']],
                     ['label' => '<i class="fa fa-file-code-o"></i><span>Gii</span>', 'url' => ['/gii']],
                     ['label' => '<i class="fa fa-dashboard"></i><span>Debug</span>', 'url' => ['/debug']],
                     [
@@ -48,6 +51,8 @@ use yii\bootstrap\Nav;
             ]
         );
         ?>
+
+
 
         <ul class="sidebar-menu">
             <li class="treeview">
@@ -76,7 +81,7 @@ use yii\bootstrap\Nav;
                         </ul>
                     </li>
                 </ul>
-            </li>
+            </li
         </ul>
 
     </section>

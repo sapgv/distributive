@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Menlo-Regular; /* Гарнитура шрифта */
+    src: url(../fonts/Menlo-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+    font-family: 'Menlo-Regular' !important;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
