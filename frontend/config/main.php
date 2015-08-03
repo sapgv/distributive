@@ -36,6 +36,11 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+
+        'cart' => [
+            'class' => 'yz\shoppingcart\ShoppingCart',
+            'cartId' => 'shopping_cart',
+        ],
     ],
     'params' => $params,
 ];

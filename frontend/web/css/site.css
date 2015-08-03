@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    background-color: #F1F2F2;
 }
 
 .wrap {
@@ -11,7 +12,48 @@ body {
 }
 
 .wrap > .container {
-    padding: 70px 15px 20px;
+    padding: 15px 15px 20px;
+}
+
+a {
+    color: #337ab7;
+}
+a.logo {
+    text-decoration: none!important;
+}
+a:hover, a:focus {
+    color: #337ab7;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #347FB3;
+    background-color: #fff;
+}
+
+.navbar .navbar-nav > li > a > span {
+    border-bottom: 2px solid transparent;
+}
+.navbar .navbar-nav > li.active > a > span {
+    border-bottom-color: #2977af;
+}
+.navbar .navbar-nav > li:hover > a > span {
+    border-bottom-color: #2977af;
+}
+nav > .container {
+    width: 100%;
 }
 
 .footer {
@@ -88,4 +130,30 @@ a.desc:after {
     border-left: 3px solid #eed3d7;
     padding: 10px 20px;
     margin: 0 0 15px 0;
+}
+
+.badge-cart{
+    position: absolute;
+    top: -10px;
+    /*right: -15px;*/
+    background-color: red;
+    padding: 3px 5px;
+}
+.cart-100 {
+    right: -30px;
+}
+.cart-10 {
+    right: -23px;
+}
+.cart-1 {
+    right: -15px;
+}
+.cart-cost-100 {
+    margin-left: 34px;
+}
+.cart-cost-10 {
+    margin-left: 27px;
+}
+.cart-cost-1 {
+    margin-left: 20px;
 }

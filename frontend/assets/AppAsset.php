@@ -19,8 +19,15 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'css/panel.css',
+        'menu/css/menu.css',
+        'css/bootstrap-slider.css', //слайдер для цены
+        'css/nav-shop.css', /*табы в вьюхе продукта*/
     ];
     public $js = [
+        'js/bootstrap-slider.js', //слайдер для цены
+        'menu/js/jquery.menu-aim.js',
+        'menu/js/menu.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
