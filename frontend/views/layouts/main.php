@@ -154,7 +154,7 @@ AppAsset::register($this);
             <?= $this->render(
                 '_cat',
                 [
-                    'catalog' => $catalog,
+                    //'catalog' => $catalog,
                 ]
             ) ?>
         </div>
