@@ -12,10 +12,10 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": ">=2.0.4",
+        "yiisoft/yii2": "2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "dmstr/yii2-adminlte-asset": "2.1.3",
@@ -23,8 +23,8 @@
         "creocoder/yii2-nested-set-behavior": "0.9.0",
         "metalguardian/yii2-fotorama-widget": "1.0.0",
         "2amigos/yii2-tinymce-widget": "1.1.1",
-        "zxbodya/yii2-gallery-manager": "dev-master",
-        "kartik-v/yii2-tabs-x": "v1.2.1"
+        "kartik-v/yii2-tabs-x": "v1.2.1",
+        "sapgv/yii2-gallery-manager": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -40,5 +40,11 @@
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
         }
-    }
+    },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"git@github.com:sapgv/yii2-gallery-manager.git"
+        }
+    ]
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a2a49576c1249db52891aa4eaf82d02b",
+    "hash": "6aecfe2aacbad71320b2501d00361a13",
     "packages": [
         {
             "name": "2amigos/yii2-tinymce-widget",
@@ -995,6 +995,42 @@
             "time": "2015-06-29 09:47:23"
         },
         {
+            "name": "sapgv/yii2-gallery-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:sapgv/yii2-gallery-manager.git",
+                "reference": "21cb586cbd0acf2622221bfa5b1e161e19bf8037"
+            },
+            "require": {
+                "yiisoft/yii2-imagine": "*",
+                "yiisoft/yii2-jui": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "zxbodya\\yii2\\galleryManager\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bogdan Savluk",
+                    "email": "savluk.bogdan@gmail.com"
+                }
+            ],
+            "description": "Extension for yii, that allows to manage image galleries",
+            "keywords": [
+                "extension",
+                "gallery",
+                "image",
+                "yii2"
+            ],
+            "time": "2015-08-06 15:48:52"
+        },
+        {
             "name": "swiftmailer/swiftmailer",
             "version": "v5.4.1",
             "source": {
@@ -1095,16 +1131,16 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "ea8c13b9f5cd437bd7bf73cad8a3457a155f3727"
+                "reference": "f42b2eb80f61992438661b01d0d74c6738e2ff38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ea8c13b9f5cd437bd7bf73cad8a3457a155f3727",
-                "reference": "ea8c13b9f5cd437bd7bf73cad8a3457a155f3727",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f42b2eb80f61992438661b01d0d74c6738e2ff38",
+                "reference": "f42b2eb80f61992438661b01d0d74c6738e2ff38",
                 "shasum": ""
             },
             "require": {
@@ -1179,7 +1215,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-07-11 02:37:59"
+            "time": "2015-08-05 22:00:30"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -1425,49 +1461,6 @@
                 "yii2"
             ],
             "time": "2015-05-10 22:12:32"
-        },
-        {
-            "name": "zxbodya/yii2-gallery-manager",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/zxbodya/yii2-gallery-manager.git",
-                "reference": "363f7121835b4eb7b94af9ae1188ee5769d964d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/zxbodya/yii2-gallery-manager/zipball/363f7121835b4eb7b94af9ae1188ee5769d964d2",
-                "reference": "363f7121835b4eb7b94af9ae1188ee5769d964d2",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2-imagine": "*",
-                "yiisoft/yii2-jui": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "zxbodya\\yii2\\galleryManager\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bogdan Savluk",
-                    "email": "savluk.bogdan@gmail.com"
-                }
-            ],
-            "description": "Extension for yii, that allows to manage image galleries",
-            "keywords": [
-                "extension",
-                "gallery",
-                "image",
-                "yii2"
-            ],
-            "time": "2015-07-14 12:33:08"
         }
     ],
     "packages-dev": [
@@ -1778,10 +1771,8 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "zxbodya/yii2-gallery-manager": 20
-    },
+    "minimum-stability": "dev",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
