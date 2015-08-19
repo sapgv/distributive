@@ -4,6 +4,8 @@ namespace common\models\orders;
 
 use Yii;
 use yii2mod\ftp\FtpClient;
+use yii\behaviors\TimestampBehavior;
+use yii\db\Expression;
 use common\models\orders\OrdersProducts;
 use yii\helpers\Html;
 
@@ -11,7 +13,9 @@ class Orders extends \yii\db\ActiveRecord
 {
 	
 	const STATUS_NEW = 'new';
-    const STATUS_ACCEPT = 'accept';
+	const STATUS_CANCELED = 'canceled';
+	const STATUS_ACCEPT = 'accept';
+	const STATUS_CLOSED = 'closed';
 
 	/**
 	 * @return string the associated database table name
@@ -23,9 +27,9 @@ class Orders extends \yii\db\ActiveRecord
 
     public function scenarios()
     {
-        return [
-            'newOrder' => ['name', 'email', 'phone', 'comment']
-        ];
+		$scenarios = parent::scenarios();
+		$scenarios['newOrder'] = ['name', 'email', 'phone', 'comment'];
+		return $scenarios;
     }
 
 	/**
@@ -37,7 +41,7 @@ class Orders extends \yii\db\ActiveRecord
 		return [
         
         [['name', 'email', 'phone'], 'required'],
-        [['name', 'email', 'phone', 'comment'], 'safe'],
+        [['name', 'email', 'phone', 'comment', 'status', 'address'], 'safe'],
 
         // the email attribute should be a valid email address
         ['email', 'email'],
@@ -46,6 +50,20 @@ class Orders extends \yii\db\ActiveRecord
 		
 	}
 
+	/**
+	 * @inheritdoc
+	 */
+	public function behaviors()
+	{
+		return [
+			[
+				'class' => TimestampBehavior::className(),
+				'attributes'=>['createdAtAttribute'],
+				'createdAtAttribute' => 'create_time',
+				'value' => new Expression('NOW()')
+			],
+		];
+	}
 	/**
 	 * @return array relational rules.
 	 */
@@ -62,14 +80,14 @@ class Orders extends \yii\db\ActiveRecord
 	{
 		return array(
 			'create_time'=>'Дата',
-			'id'=>'№',
+			'order_id'=>'№',
 			'name'=>'Ваше имя',
-			'phone'=>'Телефон',
-			'email'=>'Email',
-			// 'status'=>'Статус',
-			// 'summa'=>'Сумма',
-			'comment'=>'Комментарий к заказу',
-			// 'address'=>'Адрес доставки',
+			'phone' => 'Телефон',
+			'email' => 'Email',
+			'status' => 'Статус',
+			'summa' => 'Сумма',
+			'comment' => 'Комментарий к заказу',
+			 'address'=>'Адрес доставки',
 		);
 	}
 
@@ -78,16 +96,38 @@ class Orders extends \yii\db\ActiveRecord
 	public function getStatuses()
 	{
 	return array (
-	self::STATUS_NEW   =>'Новый',
-	self::STATUS_ACCEPT  =>'Подтвержден',
+		self::STATUS_NEW => 'Новый',
+		self::STATUS_CANCELED => 'Отменен',
+		self::STATUS_ACCEPT => 'Подтвержден',
+		self::STATUS_CLOSED => 'Закрыт',
 	);
 	}
+
+
 	
 	public function getStatusText ()
 	{
 	$Statuses=$this->getStatuses();
 	return isset($Statuses[$this->status]) ? $Statuses[$this->status] : "unkown status({$this->status})";
 	}
+
+	public function getStatusesClass()
+	{
+		return array (
+			self::STATUS_NEW => 'label label-warning',
+			self::STATUS_CANCELED => 'label label-danger',
+			self::STATUS_ACCEPT => 'label label-primary',
+			self::STATUS_CLOSED => 'label label-success',
+		);
+	}
+
+	public function getStatusClass()
+	{
+	$StatusesClass=$this->getStatusesClass();
+	return isset($StatusesClass[$this->status]) ? $StatusesClass[$this->status] : "label label-danger";
+	}
+
+
 
 	public function afterSave($insert, $changedAttributes)
 	{
@@ -98,7 +138,7 @@ class Orders extends \yii\db\ActiveRecord
 		$this->saveOrderFtp();
 
 		// отправка почты
-		$this->sentOrderMail();
+//		$this->sentOrderMail();
 
 		parent::afterSave($insert, $changedAttributes);
 	}
@@ -109,7 +149,7 @@ class Orders extends \yii\db\ActiveRecord
 		foreach ($products as $product) {
 			
 			$ordersProducts = new OrdersProducts;
-			$ordersProducts->order_id = $this->id;
+			$ordersProducts->order_id = $this->order_id;
 			$ordersProducts->product_id = $product->id;
 			$ordersProducts->name = $product->name;
 			$ordersProducts->quantity = Yii::$app->cart->getPositionById($product->id)->getQuantity();
@@ -155,7 +195,7 @@ class Orders extends \yii\db\ActiveRecord
             $order = $this;
             $orderXML = new \SimpleXMLElement("<?xml version=\"1.0\" encoding=\"windows-1251\"?><order></order>");
             
-            $orderXML->addAttribute('id', $order->id);
+            $orderXML->addAttribute('order_id', $order->order_id);
             $orderXML->addAttribute('create_time', $order->create_time);
             $orderXML->addAttribute('name', $order->name);
             $orderXML->addAttribute('email', $order->email);
@@ -179,7 +219,7 @@ class Orders extends \yii\db\ActiveRecord
 
             $xml = $orderXML->asXML();
 
-            $ftp->putFromString('order_'.$order->id.'.xml',$xml);
+            $ftp->putFromString('order_'.$order->order_id.'.xml',$xml);
 
 
         }
@@ -188,7 +228,7 @@ class Orders extends \yii\db\ActiveRecord
 	}
 	public function getProducts()
 	{
-		return $this->hasMany(OrdersProducts::className(), ['order_id' => 'id']);
+		return $this->hasMany(OrdersProducts::className(), ['order_id' => 'order_id']);
 	}
 
 	

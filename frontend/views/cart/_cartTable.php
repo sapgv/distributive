@@ -48,7 +48,7 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
     'options'=>['style'=>'margin-left:-1px;margin-right:-2px;'],
     'showFooter'=>true,
     'rowOptions'=>function ($model, $key, $index, $grid) {
-    	return ['id' => "product_" . $model->id];
+    	return ['id' => "product_" . $model->product_id];
 
     },
 
@@ -101,7 +101,7 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
             return 
             Html::a(
             	$model->name,
-            	['products/view','product_id'=>$model->id],
+            	['products/view','product_id'=>$model->product_id],
             	['style'=>'display:block;']
             	);
     		},
@@ -155,7 +155,7 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
 				    'pluginOptions' => [
 				    	'verticalbuttons' => true,
 				    	'min'=>1,
-				    	'initval' => Yii::$app->cart->getPositionById($model->id)->getQuantity(),
+				    	'initval' => Yii::$app->cart->getPositionById($model->product_id)->getQuantity(),
 				    	'verticalupclass' => 'glyphicon glyphicon-plus',
         				'verticaldownclass' => 'glyphicon glyphicon-minus',
         				'buttonup_txt' => '<i class="glyphicon glyphicon glyphicon-plus"></i>', 
@@ -174,7 +174,7 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
 							jQuery.ajax(
 							{
 							'type':'POST',
-							'data':{'product_id':\"$model->id;\",'quantity':this.value},
+							'data':{'product_id':\"$model->product_id;\",'quantity':this.value},
 							
 							'dataType':'json',
 							'success':function(data){
@@ -182,7 +182,7 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
 							$('.cartContent').html(data.cartContent);
 							$('#cart_quantity').html(data.cart_quantity);
 							
-							$('#position_cost_$model->id').html(data.position_cost);
+							$('#position_cost_$model->product_id').html(data.position_cost);
 							
 							},
 							'url':'/cart/change-quantity/',
@@ -215,8 +215,8 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
             '</span>',
 		'footerOptions'=>['style'=>'border-right:0; border-bottom:1px solid #ddd;min-width:100px!important;'],
 		'value' => function ($model) {
-		 	return '<span id="position_cost_' . $model->id .'" style="color:#d2322d;font-size: 22px;">' . 
-		 	number_format(Yii::$app->cart->getPositionById($model->id)->getCost(),0,'.',' ') . 
+		 	return '<span id="position_cost_' . $model->product_id .'" style="color:#d2322d;font-size: 22px;">' .
+		 	number_format(Yii::$app->cart->getPositionById($model->product_id)->getCost(),0,'.',' ') .
             '</span>';	                     
             return ;
     		},
@@ -271,7 +271,7 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
             $url = Url::toRoute('/cart/remove/');
 			$jsCartRemove = <<<JS
 
-			$("#remove_$model->id").on('click',
+			$("#remove_$model->product_id").on('click',
 
 
 				function() {
@@ -282,18 +282,18 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
 					cache    : false,
 					async    : false,
 					url  : '{$url}',
-					data: {id: $model->id},
+					data: {id: $model->product_id},
 					success  : function(data) {
 					
 						if (data.cart_quantity > 0) {
-	                                          $("#product_{$model->id}").html('');
+	                                          $("#product_{$model->product_id}").html('');
 
 	                                          $('.cart_cost').html(data.cart_cost);
 	                                          $(".cartContent").html(data.cartContent);
 	                                          $('#cart_quantity').html(data.cart_quantity);
                             }
                         else {
-                          $("#product_{$model->id}").html('');
+                          $("#product_{$model->product_id}").html('');
                           $('.cart_cost').html(data.cart_cost);
                           $(".cartContent").html(data.cartContent); 
                           $('#cart_quantity').html(data.cart_quantity);

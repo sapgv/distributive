@@ -18,8 +18,8 @@ use yii\filters\VerbFilter;
 // use app\models\CharacteristicsSearch;
 // use app\models\CharacteristicsValuesAssignmentSearch;
 
-use zxbodya\yii2\imageAttachment\ImageAttachmentAction;
-use zxbodya\yii2\galleryManager\GalleryManagerAction;
+use sapgv\yii2\imageAttachment\ImageAttachmentAction;
+use sapgv\yii2\galleryManager\GalleryManagerAction;
 
 
 use common\models\characteristics\Characteristics;
@@ -43,18 +43,17 @@ class ProductsController extends Controller {
     }
 
 
-        public function actions()
-           {
-              return [
-              'galleryApi' => [
-              'class' => GalleryManagerAction::className(),
-              // mappings between type names and model classes (should be the same as in behaviour)
-              'types' => [
-              'products' => Products::className()
-              ]
-              ],
-              ];
-       }
+    public function actions() {
+        return [
+            'galleryApi' => [
+                'class' => GalleryManagerAction::className(),
+                // mappings between type names and model classes (should be the same as in behaviour)
+                'types' => [
+                    'products' => Products::className()
+                ]
+            ],
+        ];
+    }
 
     /**
      * Lists all Products models.

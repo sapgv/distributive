@@ -65,7 +65,6 @@ use kartik\touchspin\TouchSpin;
  <!-- </div> -->
 
 
-
 <div id="cart_order" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
  		
  	<?php 

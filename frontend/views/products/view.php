@@ -55,10 +55,10 @@ use yii\helpers\Url;
     ?>
 
     	<?php
-//			print_r($model->getImages());
+
     	foreach ($model->getImages() as $photo) {
 //			print_r($photo);
-    		echo Html::img($photo->getUrl('medium'));
+    		echo Html::img($photo->getUrl('original'));
     	}
 
 		

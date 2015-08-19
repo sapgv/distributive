@@ -10,21 +10,17 @@ use yii\helpers\ArrayHelper;
 use common\models\catalogs\Catalogs;
 
 use zxbodya\yii2\imageAttachment\ImageAttachmentWidget;
-use zxbodya\yii2\galleryManager\GalleryManagerWidget;
-use zxbodya\yii2\galleryManager\GalleryManager;
+use sapgv\yii2\galleryManager\GalleryManagerWidget;
+use sapgv\yii2\galleryManager\GalleryManager;
 use dosamigos\tinymce\TinyMce;
 use yii\grid\GridView;
 use common\models\products\ViewProduct;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Products */
+/* @var $model common\models\Products */
 /* @var $form yii\widgets\ActiveForm */
 ?>
-<?php
 
-// print_r($model);
-
-?>
 <?php $form = ActiveForm::begin(['options' => ['class' => 'form-horizontal']]); ?>
 <div class="box">
 

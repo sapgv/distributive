@@ -3,15 +3,15 @@
 namespace common\models\products;
 
 use Yii;
-use zxbodya\yii2\galleryManager\GalleryImage;
-use zxbodya\yii2\imageAttachment\ImageAttachmentBehavior;
-use zxbodya\yii2\galleryManager\GalleryBehavior;
+use sapgv\yii2\galleryManager\GalleryImage;
+//use sapgv\yii2\imageAttachment\ImageAttachmentBehavior;
+use sapgv\yii2\galleryManager\GalleryBehavior;
 use yz\shoppingcart\CartPositionInterface;
 use yz\shoppingcart\CartPositionTrait;
 use common\models\catalogs\Catalogs;
 use common\models\products\ViewProduct;
 use common\models\characteristics\Techchar;
-use kartik\tree\models\TreeTrait;
+//use kartik\tree\models\TreeTrait;
 use yii\helpers\Html;
 /**
  * This is the model class for table "products".
@@ -76,46 +76,12 @@ class Products extends \yii\db\ActiveRecord implements CartPositionInterface {
         return [
             'galleryBehavior' => [
                 'class' => GalleryBehavior::className(),
-//                'type' => 'products',
-//                'extension' => 'jpg',
-//                'directory' => Yii::getAlias('@imagesroot') . '/product/gallery',
-//                'url' => Yii::getAlias('@images') . '/product/gallery',
-//                'versions' => [
-//                    'small' => function ($img) {
-//                        /** @var \Imagine\Image\ImageInterface $img */
-//                        return $img
-//                            ->copy()
-//                            ->thumbnail(new \Imagine\Image\Box(200, 200));
-//                    },
-//                    'medium' => function ($img) {
-//                        /** @var Imagine\Image\ImageInterface $img */
-//                        $dstSize = $img->getSize();
-//                        $maxWidth = 800;
-//                        if ($dstSize->getWidth() > $maxWidth) {
-//                            $dstSize = $dstSize->widen($maxWidth);
-//                        }
-//                        return $img
-//                            ->copy()
-//                            ->resize($dstSize);
-//                    },
-//                ]
+                'type' => 'products',
+                'extension' => 'jpg',
+                'directory' => Yii::getAlias('@imagesroot') . '/product/gallery',
+                'url' => Yii::getAlias('@images') . '/product/gallery',
+
             ]
-
-//                        'galleryBehavior' => [
-//                                'class' => GalleryBehavior::className(),
-//                                'idAttribute' => 'gallery_id',
-//                                'versions' => [
-//                                    'small' => [
-//                                        'centeredpreview' => array(220, 170),
-//                                        ],
-//                                    'medium' => [
-//                                        'cresize' => [800, null],
-//                                        ]
-//                                    ],
-//                                'name' => true,
-//                                'description' => true,
-//                        ],
-
         ];
     }
 
@@ -187,10 +153,8 @@ class Products extends \yii\db\ActiveRecord implements CartPositionInterface {
                     'span',
 
                     Html::tag(
-                        'span',"<span style='font-weight: bold;
-font-family: Helvetica Neue, Helvetica, Arial, sans-serif;'> КОРЗИНА</span>"),
+                        'span',"<span style='font-weight: bold;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;'> КОРЗИНА</span>"),
 
-                     //'span',\Yii::$app->cart->getCount(),['class'=>'badge badge-cart '.$cartBadge]),
                     ['class'=>'glyphicon glyphicon-shopping-cart',
                      'style'=>'color:#34495e;//margin-right:15px;'
                     ]

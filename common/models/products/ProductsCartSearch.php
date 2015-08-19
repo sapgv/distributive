@@ -51,12 +51,12 @@ class ProductsCartSearch extends Products
         $productsID = [];
         
         foreach ($products as $product) {
-           $productsID[] = $product->id;
+           $productsID[] = $product->product_id;
         }
 
 
         $query = Products::find()
-        ->where(['id'=>$productsID])
+        ->where(['product_id'=>$productsID])
         ;
 
         $dataProvider = new ActiveDataProvider([

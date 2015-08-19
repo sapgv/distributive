@@ -33,6 +33,7 @@ class CartController extends Controller {
 
             $summa = Yii::$app->cart->getCost();
             $order->summa = $summa;
+            $order->status = Orders::STATUS_NEW;
 
 
             if ( $order->save() )
@@ -43,7 +44,7 @@ class CartController extends Controller {
                 Yii::$app->session->setFlash(
                     'order',
                     [
-                        'id'    => $order->id,
+                        'id'    => $order->order_id,
                         'email' => $order->email,
                         'name'  => $order->name,
                     ]
@@ -105,7 +106,7 @@ class CartController extends Controller {
             'position_cost'     => number_format(Yii::$app->cart->getPositionById($product->id)->getCost(), 0, '.', ' '),
             'cart_cost'         => number_format(Yii::$app->cart->getCost(), 0, '.', ' '),
             'cart_quantity'     => number_format(Yii::$app->cart->getCount(), 0, '.', ' '),
-            'cartContent'       => Yii::$app->cart->getCartContent(),
+            'cartContent'       => Products::getCartContent(),
         ];
 
         return $cart;
@@ -121,7 +122,7 @@ class CartController extends Controller {
         $arr = [
             'cart_quantity' => Yii::$app->cart->getCount(),
             'cart_cost'     => number_format(Yii::$app->cart->getCost(), 0, '.', ' '),
-            'cartContent'   => Yii::$app->cart->getCartContent(),
+            'cartContent'   => Products::getCartContent(),
         ];
         echo Json::Encode($arr);
 
@@ -135,7 +136,7 @@ class CartController extends Controller {
         $arr = [
             'cart_quantity' => Yii::$app->cart->getCount(),
             'cart_cost'     => number_format(Yii::$app->cart->getCost(), 0, '.', ' '),
-            'cartContent'   => Yii::$app->cart->getCartContent(),
+            'cartContent'   => Products::getCartContent(),
         ];
         echo Json::Encode($arr);
     }

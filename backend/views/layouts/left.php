@@ -37,9 +37,11 @@ use yii\bootstrap\Nav;
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
                     '<li class="header">Меню</li>',
-                    ['label' => '<i class="fa fa-circle"></i><span>Виды номенклатуры</span>', 'url' => ['/view-product']],
-                    ['label' => '<i class="fa fa-circle"></i><span>Свойства характеристик</span>', 'url' => ['/property-characteristic']],
-                    ['label' => '<i class="fa fa-cubes"></i><span>Товары</span>', 'url' => ['/products']],
+                    ['label' => '<i class="fa fa-circle"></i><span>Виды номенклатуры</span>', 'url' => ['/view-product/index']],
+                    ['label' => '<i class="fa fa-circle"></i><span>Свойства характеристик</span>', 'url' => ['/property-characteristic/index']],
+                    ['label' => '<i class="fa fa-cubes"></i><span>Каталог</span>', 'url' => ['/catalogs/index']],
+                    ['label' => '<i class="fa fa-cubes"></i><span>Товары</span>', 'url' => ['/products/index']],
+                    ['label' => '<i class="fa fa-shopping-cart"></i><span>Заказы</span>', 'url' => ['/orders/index'], 'active'=>$this->context->getUniqueId() ==='orders'],
                     ['label' => '<i class="fa fa-file-code-o"></i><span>Gii</span>', 'url' => ['/gii']],
                     ['label' => '<i class="fa fa-dashboard"></i><span>Debug</span>', 'url' => ['/debug']],
                     [

@@ -3,7 +3,6 @@
 // namespace app\models;
 
 // use Yii;
-use yii\helpers\Html;
 
 use frontend\controllers\CookieController;
 

@@ -68,55 +68,55 @@ class Catalogs extends \yii\db\ActiveRecord
             // 'image' => [
             //     'class' => 'rico\yii2images\behaviors\ImageBehave',
             // ],
-//            'coverBehavior' => [
-//            'class' => ImageAttachmentBehavior::className(),
-//            // type name for model
-//            'type' => 'catalogs',
-//            // image dimmentions for preview in widget
-//            'previewHeight' => 200,
-//            'previewWidth' => 440,
-//            // extension for images saving
-//            'extension' => 'png',
-//            // path to location where to save images
-//            'directory' => Yii::getAlias('@webroot') . '/images',
-//            'url' => Yii::getAlias('@web') . '/images',
-//            // additional image versions
-//            'versions' => [
-//
-//                'original' => function ($img) {
-//                    /** @var ImageInterface $img */
-//                    return $img
-//                        ->copy()
-//                        ->resize($img->getSize());
-//                },
-//
-//                // 'catalog' => function ($img) {
-//                //     /** @var ImageInterface $img */
-//
-//                //     return $img
-//                //         ->copy();
-//                //         // ->resize($img->getSize()->widen(200));
-//                // },
-//
-//                // 'small' => function ($img) {
-//                //     /** @var ImageInterface $img */
-//                //     return $img
-//                //         ->copy()
-//                //         ->resize($img->getSize()->widen(200));
-//                // },
-//                // 'medium' => function ($img) {
-//                //     /** @var ImageInterface $img */
-//                //     $dstSize = $img->getSize();
-//                //     $maxWidth = 800;
-//                //     if ($dstSize->getWidth() > $maxWidth) {
-//                //         $dstSize = $dstSize->widen($maxWidth);
-//                //     }
-//                //     return $img
-//                //         ->copy()
-//                //         ->resize($dstSize);
-//                // },
-//            ]
-//        ],
+            'coverBehavior' => [
+            'class' => ImageAttachmentBehavior::className(),
+            // type name for model
+            'type' => 'catalogs',
+            // image dimmentions for preview in widget
+            'previewHeight' => 200,
+            'previewWidth' => 440,
+            // extension for images saving
+            'extension' => 'png',
+            // path to location where to save images
+            'directory' => Yii::getAlias('@webroot') . '/images',
+            'url' => Yii::getAlias('@web') . '/images',
+            // additional image versions
+            'versions' => [
+
+                'original' => function ($img) {
+                    /** @var ImageInterface $img */
+                    return $img
+                        ->copy()
+                        ->resize($img->getSize());
+                },
+
+                // 'catalog' => function ($img) {
+                //     /** @var ImageInterface $img */
+
+                //     return $img
+                //         ->copy();
+                //         // ->resize($img->getSize()->widen(200));
+                // },
+
+                // 'small' => function ($img) {
+                //     /** @var ImageInterface $img */
+                //     return $img
+                //         ->copy()
+                //         ->resize($img->getSize()->widen(200));
+                // },
+                // 'medium' => function ($img) {
+                //     /** @var ImageInterface $img */
+                //     $dstSize = $img->getSize();
+                //     $maxWidth = 800;
+                //     if ($dstSize->getWidth() > $maxWidth) {
+                //         $dstSize = $dstSize->widen($maxWidth);
+                //     }
+                //     return $img
+                //         ->copy()
+                //         ->resize($dstSize);
+                // },
+            ]
+        ],
         ];
     }
 

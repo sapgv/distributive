@@ -24,7 +24,11 @@
         "metalguardian/yii2-fotorama-widget": "1.0.0",
         "2amigos/yii2-tinymce-widget": "1.1.1",
         "kartik-v/yii2-tabs-x": "v1.2.1",
-        "sapgv/yii2-gallery-manager": "*"
+        "sapgv/yii2-gallery-manager": "*",
+        "kartik-v/yii2-widget-touchspin": "*",
+        "zxbodya/yii2-image-attachment": "*@dev",
+        "yii2mod/yii2-ftp": "*",
+        "maddoger/yii2-datetimepicker": "v1.4.3"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

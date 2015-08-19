@@ -18,7 +18,7 @@ use yii\helpers\Url;
 //				print_r($mainPhoto);
 //			$mainPhoto = $model->getBehavior('galleryBehavior')->getProductMainPhoto($model->gallery_id);
 			echo Html::a(
-				Html::img($mainPhoto->getUrl('preview'),['class'=>'img-responsive','style'=>'max-height:120px;']),
+				Html::img($mainPhoto->getUrl('original'),['class'=>'img-responsive','style'=>'max-height:120px;']),
 				['products/view','product_id'=>$model->product_id],['style'=>'display:block;']);
 			?>
 

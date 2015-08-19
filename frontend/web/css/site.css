@@ -157,3 +157,14 @@ a.desc:after {
 .cart-cost-1 {
     margin-left: 20px;
 }
+.glyphicon-cart {
+    position: relative;
+    top: 1px;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
