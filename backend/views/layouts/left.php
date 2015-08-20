@@ -37,6 +37,7 @@ use yii\bootstrap\Nav;
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
                     '<li class="header">Меню</li>',
+                    ['label' => '<i class="fa fa-tachometer"></i><span>Главная</span>', 'url' => ['/site/index']],
                     ['label' => '<i class="fa fa-circle"></i><span>Виды номенклатуры</span>', 'url' => ['/view-product/index']],
                     ['label' => '<i class="fa fa-circle"></i><span>Свойства характеристик</span>', 'url' => ['/property-characteristic/index']],
                     ['label' => '<i class="fa fa-cubes"></i><span>Каталог</span>', 'url' => ['/catalogs/index']],

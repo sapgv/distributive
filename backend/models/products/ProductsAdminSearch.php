@@ -46,12 +46,15 @@ class ProductsAdminSearch extends Products
     public function search($params)
     {
         $query = Products::find()
-        ->select('products.product_id as product_id, products.name as name, catalogs.name as name_catalog')
+        ->select('products.product_id as product_id, products.name as name, products.price as price, products.count as count, products.popular as popular, catalogs.name as name_catalog')
         ->leftJoin('catalogs as catalogs','Products.catalog_id = catalogs.catalog_id')
         ;
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
+            'pagination' => [
+                'pageSize' => 10,
+            ],
         ]);
 
         $this->load($params);
@@ -62,18 +65,21 @@ class ProductsAdminSearch extends Products
             return $dataProvider;
         }
 
-
         $query->andFilterWhere([
-            'product_id' => $this->product_id,
+            'products.popular' => $this->popular,
            
         ]);
 
-        $query->andFilterWhere(['like', 'name', $this->name])
+        $query->andFilterWhere([
+            'product_id' => $this->product_id,
+
+        ]);
+
+        $query->andFilterWhere(['like', 'products.name', $this->name])
             ->andFilterWhere(['like', 'catalogs.name', $this->name_catalog])
             
             ;
 
-            // print_r($query);
         return $dataProvider;
     }
 }

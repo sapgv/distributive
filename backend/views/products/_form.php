@@ -2,33 +2,32 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use yii\bootstrap\Tabs;
-use yii\widgets\DetailView;
-use yii\widgets\ListView;
 
 use yii\helpers\ArrayHelper;
 use common\models\catalogs\Catalogs;
 
-use zxbodya\yii2\imageAttachment\ImageAttachmentWidget;
 use sapgv\yii2\galleryManager\GalleryManagerWidget;
 use sapgv\yii2\galleryManager\GalleryManager;
-use dosamigos\tinymce\TinyMce;
+//use dosamigos\tinymce\TinyMce;
+//use zxbodya\TinyMce;
 use yii\grid\GridView;
 use common\models\products\ViewProduct;
+use zxbodya\yii2\elfinder\TinyMceElFinder;
+use zxbodya\yii2\tinymce\TinyMce;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Products */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<?php $form = ActiveForm::begin(['options' => ['class' => 'form-horizontal']]); ?>
+<?php $form = ActiveForm::begin([ 'options' => [ 'class' => 'form-horizontal' ] ]); ?>
 <div class="box">
 
     <div class="box-header">
         <h3 class="box-title"><?= Html::encode($this->title) ?></h3>
 
         <div class="box-tools">
-            <?= Html::submitButton($model->isNewRecord ? 'Сохранить' : 'Сохранить', ['class' => $model->isNewRecord ? 'btn btn-sm btn-success' : 'btn btn-sm btn-success']) ?>
+            <?= Html::submitButton($model->isNewRecord ? 'Сохранить' : 'Сохранить', [ 'class' => $model->isNewRecord ? 'btn btn-sm btn-success' : 'btn btn-sm btn-success' ]) ?>
         </div>
     </div>
 
@@ -53,7 +52,7 @@ use common\models\products\ViewProduct;
                         [
                             'template'     => "<div class='col-sm-offset-2 col-sm-10'>{input}</div>",
                             // 'labelOptions'=>['class'=>'control-label col-sm-2'],
-                            'inputOptions' => ['class' => 'form-control'],
+                            'inputOptions' => [ 'class' => 'form-control' ],
                         ]
                     )->checkbox() ?>
 
@@ -61,8 +60,8 @@ use common\models\products\ViewProduct;
                         $model, 'product_id',
                         [
                             'template'     => "{label}\n<div class='col-sm-10'>{input}\n{hint}\n{error}</div>",
-                            'labelOptions' => ['class' => 'control-label col-sm-2'],
-                            'inputOptions' => ['class' => 'form-control', 'disabled' => true],
+                            'labelOptions' => [ 'class' => 'control-label col-sm-2' ],
+                            'inputOptions' => [ 'class' => 'form-control', 'disabled' => true ],
 
                         ]
                     )->textInput() ?>
@@ -74,11 +73,11 @@ use common\models\products\ViewProduct;
 
                         [
                             'template'     => "{label}\n<div class='col-sm-10'>{input}\n{hint}\n{error}</div>",
-                            'labelOptions' => ['class' => 'control-label col-sm-2'],
-                            'inputOptions' => ['class' => 'form-control'],
+                            'labelOptions' => [ 'class' => 'control-label col-sm-2' ],
+                            'inputOptions' => [ 'class' => 'form-control' ],
 
                         ]
-                    )->dropDownList(ArrayHelper::map(Catalogs::find()->all(), 'catalog_id', 'name'), ['prompt' => 'Выберите вид номенклатуры ...']);
+                    )->dropDownList(ArrayHelper::map(Catalogs::find()->all(), 'catalog_id', 'name'), [ 'prompt' => 'Выберите вид номенклатуры ...' ]);
                     ?>
 
 
@@ -87,59 +86,39 @@ use common\models\products\ViewProduct;
 
                         [
                             'template'     => "{label}\n<div class='col-sm-10'>{input}\n{hint}\n{error}</div>",
-                            'labelOptions' => ['class' => 'control-label col-sm-2'],
-                            'inputOptions' => ['class' => 'form-control'],
+                            'labelOptions' => [ 'class' => 'control-label col-sm-2' ],
+                            'inputOptions' => [ 'class' => 'form-control' ],
 
                         ]
-                    )->dropDownList(ArrayHelper::map(ViewProduct::find()->all(), 'view_product_id', 'name'), ['prompt' => 'Выберите вид номенклатуры ...']) ?>
+                    )->dropDownList(ArrayHelper::map(ViewProduct::find()->all(), 'view_product_id', 'name'), [ 'prompt' => 'Выберите вид номенклатуры ...' ]) ?>
 
                     <?= $form->field(
                         $model, 'name',
                         [
                             'template'     => "{label}\n<div class='col-sm-10'>{input}\n{hint}\n{error}</div>",
-                            'labelOptions' => ['class' => 'control-label col-sm-2'],
-                            'inputOptions' => ['class' => 'form-control', 'placeholder' => $model->name],
+                            'labelOptions' => [ 'class' => 'control-label col-sm-2' ],
+                            'inputOptions' => [ 'class' => 'form-control', 'placeholder' => $model->name ],
 
                         ]
                     )->textInput() ?>
 
 
 
-                    <?= $form->field($model, 'precontent')->textarea(['rows' => 6, 'placeholder' => $model->precontent]) ?>
+                    <?= $form->field($model, 'precontent')->textarea([ 'rows' => 6, 'placeholder' => $model->precontent ]) ?>
 
 
 
                     <?= $form->field($model, 'content')->widget(
-                        TinyMce::className(), [
-                                                'options'       => ['rows' => 6],
-                                                'language'      => 'ru',
-                                                'clientOptions' => [
-                                                    // 'plugins' => [
-                                                    //     "advlist autolink lists link image charmap print preview anchor",
-                                                    //     "searchreplace visualblocks code fullscreen",
-                                                    //     "insertdatetime media table contextmenu paste"
-                                                    // ],
-                                                    'toolbar' => "undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
-                                                ],
-                                            ]
+                        TinyMce::className(),
+                        [
+                            'fileManager' => [
+                                'class' => TinyMceElFinder::className(),
+                                'connectorRoute' => 'el-finder/connector',
+                            ],
+                        ]
                     ); ?>
 
-                    <?= $form->field($model, 'comment')->textarea(['rows' => 6, 'placeholder' => $model->comment]) ?>
-
-
-                    <!--  <?= $form->field($model, 'source')->textInput(['maxlength' => 255]) ?>
-
-    <?= $form->field($model, 'count')->textInput() ?>
-
-    <?= $form->field($model, 'price')->textInput() ?>
-
-    <?= $form->field($model, 'popular')->textInput() ?>
-
-    <?= $form->field($model, 'versions_data')->textarea(['rows' => 6]) ?> -->
-
-                    <!--                    <div class="form-group">-->
-                    <!--                        --><? //= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
-                    <!--                    </div>-->
+                    <?= $form->field($model, 'comment')->textarea([ 'rows' => 6, 'placeholder' => $model->comment ]) ?>
 
 
                 </div>
@@ -151,7 +130,7 @@ use common\models\products\ViewProduct;
 
 
                             <div class="box-title pull-right">
-                                <?= Html::a('Новая характеристика', ['/characteristics/create', 'product_id' => $model->id], ['class' => 'btn btn-sm btn-warning']) ?>
+                                <?= Html::a('Новая характеристика', [ '/characteristics/create', 'product_id' => $model->id ], [ 'class' => 'btn btn-sm btn-warning' ]) ?>
 
 
                             </div>
@@ -165,12 +144,12 @@ use common\models\products\ViewProduct;
                                 'filterModel'  => $characteristicsSearchModel,
                                 'summary'      => '',
                                 'columns'      => [
-                                    ['class' => 'yii\grid\SerialColumn'],
+                                    [ 'class' => 'yii\grid\SerialColumn' ],
 
                                     'characteristic_id',
                                     'name',
 
-                                    ['class' => 'yii\grid\ActionColumn'],
+                                    [ 'class' => 'yii\grid\ActionColumn' ],
                                     //                                    [
                                     //                                        'class'      => 'yii\grid\ActionColumn',
                                     //                                        'urlCreator' => function ($action, $model, $key, $index)
@@ -197,12 +176,13 @@ use common\models\products\ViewProduct;
 
                     if ($model->isNewRecord) {
                         echo 'Can not upload images for new record';
-                    } else {
+                    }
+                    else {
                         echo GalleryManager::widget(
                             [
-                                'model' => $model,
+                                'model'        => $model,
                                 'behaviorName' => 'galleryBehavior',
-                                'apiRoute' => '/products/galleryApi'
+                                'apiRoute'     => '/products/galleryApi',
                             ]
                         );
                     }

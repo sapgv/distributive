@@ -100,6 +100,7 @@ class Products extends \yii\db\ActiveRecord implements CartPositionInterface {
             'content'                => 'Полное описание',
             'comment'                => 'Комментарий',
             'popular'                => 'Популярный',
+            'price'                  => 'Цена',
 
         ];
     }

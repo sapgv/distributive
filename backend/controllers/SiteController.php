@@ -1,6 +1,7 @@
 <?php
 namespace backend\controllers;
 
+use common\models\orders\Orders;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -55,7 +56,12 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        return $this->render('index');
+
+        $countOrders = Orders::find()->count();
+
+        return $this->render('index',
+            ['countOrders'=>$countOrders,]
+            );
     }
 
     public function actionLogin()

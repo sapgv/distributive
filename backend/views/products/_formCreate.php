@@ -17,14 +17,11 @@ use yii\grid\GridView;
 use common\models\products\ViewProduct;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Products */
+/* @var $model common\models\Products */
 /* @var $form yii\widgets\ActiveForm */
+$this->title = 'Новый товар';
 ?>
-<?php
 
-// print_r($model);
-
-?>
 <?php $form = ActiveForm::begin(['options' => ['class' => 'form-horizontal']]); ?>
 <div class="box">
 
@@ -32,7 +29,7 @@ use common\models\products\ViewProduct;
         <h3 class="box-title"><?= Html::encode($this->title) ?></h3>
 
         <div class="box-tools">
-            <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Сохранить', ['class' => $model->isNewRecord ? 'btn btn-sm btn-success' : 'btn btn-sm btn-success']) ?>
+            <?= Html::submitButton($model->isNewRecord ? 'Создать' : 'Сохранить', ['class' => $model->isNewRecord ? 'btn btn-sm btn-success' : 'btn btn-sm btn-success']) ?>
         </div>
     </div>
 

@@ -28,7 +28,9 @@
         "kartik-v/yii2-widget-touchspin": "*",
         "zxbodya/yii2-image-attachment": "*@dev",
         "yii2mod/yii2-ftp": "*",
-        "maddoger/yii2-datetimepicker": "v1.4.3"
+        "maddoger/yii2-datetimepicker": "v1.4.3",
+        "zxbodya/yii2-tinymce": "*@dev",
+        "zxbodya/yii2-elfinder": "*@dev"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

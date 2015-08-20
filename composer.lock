@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1f7bab7d13d21dfae1961457dfe4601e",
+    "hash": "e443e6b8222286b2d8c13243e8951976",
     "packages": [
         {
             "name": "2amigos/yii2-tinymce-widget",
@@ -1693,6 +1693,54 @@
             "time": "2015-06-18 08:31:25"
         },
         {
+            "name": "zxbodya/yii2-elfinder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zxbodya/yii2-elfinder.git",
+                "reference": "1d51b6db0e02aac6e6e7f8a4c42fc67670c1df89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zxbodya/yii2-elfinder/zipball/1d51b6db0e02aac6e6e7f8a4c42fc67670c1df89",
+                "reference": "1d51b6db0e02aac6e6e7f8a4c42fc67670c1df89",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-jui": "*"
+            },
+            "suggest": {
+                "zxbodya/yii2-tinymce": "Extension with TinyMce WYSIWYG editor, that can be used with elFinder"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "zxbodya\\yii2\\elfinder\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bogdan Savluk",
+                    "email": "savluk.bogdan@gmail.com"
+                }
+            ],
+            "description": "Extension to use elFinder 1.x file manager in Yii2 application",
+            "keywords": [
+                "elfinder",
+                "extension",
+                "file manager",
+                "tinymce",
+                "widget",
+                "yii2"
+            ],
+            "time": "2014-10-07 19:20:45"
+        },
+        {
             "name": "zxbodya/yii2-image-attachment",
             "version": "dev-master",
             "source": {
@@ -1735,6 +1783,51 @@
                 "yii2"
             ],
             "time": "2015-06-23 09:12:47"
+        },
+        {
+            "name": "zxbodya/yii2-tinymce",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zxbodya/yii2-tinymce.git",
+                "reference": "0aa425209f8a86464b281aa682a0f7ee7fc08dfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zxbodya/yii2-tinymce/zipball/0aa425209f8a86464b281aa682a0f7ee7fc08dfb",
+                "reference": "0aa425209f8a86464b281aa682a0f7ee7fc08dfb",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "suggest": {
+                "zxbodya/yii2-elfinder": "To add elFinder file manager"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "zxbodya\\yii2\\tinymce\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bogdan Savluk",
+                    "email": "savluk.bogdan@gmail.com"
+                }
+            ],
+            "description": "Yii2 extension to use TinyMce with Compressor and FileManager",
+            "keywords": [
+                "extension",
+                "tinymce",
+                "wysiwyg",
+                "yii2"
+            ],
+            "time": "2014-10-01 15:55:18"
         }
     ],
     "packages-dev": [
@@ -2000,7 +2093,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/aeec43df7b85e0f100220f4ab5eb179d827f6aa1",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/071113c6a2d514dec2f5df5de066dc7cd5f966b8",
                 "reference": "552f9cb837b1ae0ab5e904aef7366ff191233a5a",
                 "shasum": ""
             },
@@ -2047,7 +2140,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "zxbodya/yii2-image-attachment": 20
+        "zxbodya/yii2-image-attachment": 20,
+        "zxbodya/yii2-tinymce": 20,
+        "zxbodya/yii2-elfinder": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
