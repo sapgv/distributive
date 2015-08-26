@@ -47,9 +47,9 @@ class Catalogs extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
+            'catalog_id' => 'Код',
             'id_parent' => 'Id Parent',
-            'name' => 'Name',
+            'name' => 'Наименование',
             'expanded' => 'Expanded',
             'root' => 'Root',
             'lft' => 'Lft',
@@ -74,12 +74,12 @@ class Catalogs extends \yii\db\ActiveRecord
             'type' => 'catalogs',
             // image dimmentions for preview in widget
             'previewHeight' => 200,
-            'previewWidth' => 440,
+            'previewWidth' => 200,
             // extension for images saving
             'extension' => 'png',
             // path to location where to save images
-            'directory' => Yii::getAlias('@webroot') . '/images',
-            'url' => Yii::getAlias('@web') . '/images',
+            'directory' => Yii::getAlias('@imagesroot') . '/catalogs/gallery',
+            'url' => Yii::getAlias('@images') . '/catalogs/gallery',
             // additional image versions
             'versions' => [
 
@@ -90,31 +90,6 @@ class Catalogs extends \yii\db\ActiveRecord
                         ->resize($img->getSize());
                 },
 
-                // 'catalog' => function ($img) {
-                //     /** @var ImageInterface $img */
-
-                //     return $img
-                //         ->copy();
-                //         // ->resize($img->getSize()->widen(200));
-                // },
-
-                // 'small' => function ($img) {
-                //     /** @var ImageInterface $img */
-                //     return $img
-                //         ->copy()
-                //         ->resize($img->getSize()->widen(200));
-                // },
-                // 'medium' => function ($img) {
-                //     /** @var ImageInterface $img */
-                //     $dstSize = $img->getSize();
-                //     $maxWidth = 800;
-                //     if ($dstSize->getWidth() > $maxWidth) {
-                //         $dstSize = $dstSize->widen($maxWidth);
-                //     }
-                //     return $img
-                //         ->copy()
-                //         ->resize($dstSize);
-                // },
             ]
         ],
         ];

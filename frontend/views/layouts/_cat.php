@@ -8,7 +8,7 @@ use common\models\catalogs\CatalogsFtp;
 
 <?php 
 $root = Catalogs::findOne(['name' => 'ROOT']);
-$nodes = $root->children(0)
+$nodes = $root->children(1)
 ->all();
  ?>
 

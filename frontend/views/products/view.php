@@ -10,18 +10,6 @@ use yii\helpers\Url;
  			
  		<div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
  		<div style="min-height:300px;" >
-            <?
-//            print_r(Yii::getAlias('@common'));
-//            echo Yii::getAlias('@webroot');
-//            echo Yii::getAlias('@imagesroot');
-
-//            echo yii\web\Request->getBaseUrl() ;
-            foreach ($model->getImages() as $photo)
-            {
-//                print_r($photo->getUrl('small'));
-            }
-            ?>
-
 
  			<?php 
     $fotorama = \metalguardian\fotorama\Fotorama::begin(
@@ -57,7 +45,6 @@ use yii\helpers\Url;
     	<?php
 
     	foreach ($model->getImages() as $photo) {
-//			print_r($photo);
     		echo Html::img($photo->getUrl('original'));
     	}
 

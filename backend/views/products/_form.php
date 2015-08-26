@@ -37,7 +37,7 @@ use zxbodya\yii2\tinymce\TinyMce;
 
             <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
                 <li class="active"><a href="#decription" data-toggle="tab">Основная</a></li>
-                <li><a href="#details" data-toggle="tab">Технические характеристики</a></li>
+<!--                <li><a href="#details" data-toggle="tab">Технические характеристики</a></li>-->
                 <li><a href="#photos" data-toggle="tab">Фотографии</a></li>
 
 
@@ -67,7 +67,10 @@ use zxbodya\yii2\tinymce\TinyMce;
                     )->textInput() ?>
 
                     <?
-                    // print_r($model);
+                    $catalogList = ArrayHelper::map(Catalogs::find()
+                        ->where(['not',['name'=>'ROOT']])
+                        ->all(), 'catalog_id', 'name');
+
                     echo $form->field(
                         $model, 'catalog_id',
 
@@ -77,7 +80,7 @@ use zxbodya\yii2\tinymce\TinyMce;
                             'inputOptions' => [ 'class' => 'form-control' ],
 
                         ]
-                    )->dropDownList(ArrayHelper::map(Catalogs::find()->all(), 'catalog_id', 'name'), [ 'prompt' => 'Выберите вид номенклатуры ...' ]);
+                    )->dropDownList($catalogList, [ 'prompt' => 'Выберите каталог ...' ]);
                     ?>
 
 
@@ -122,53 +125,53 @@ use zxbodya\yii2\tinymce\TinyMce;
 
 
                 </div>
-                <div class="tab-pane" id="details" style="min-height:300px;">
-
-                    <div class="box" style="border: none">
-
-                        <div class="box-header">
-
-
-                            <div class="box-title pull-right">
-                                <?= Html::a('Новая характеристика', [ '/characteristics/create', 'product_id' => $model->id ], [ 'class' => 'btn btn-sm btn-warning' ]) ?>
-
-
-                            </div>
-                        </div>
-
-
-                        <?
-                        echo GridView::widget(
-                            [
-                                'dataProvider' => $characteristicsDataProvider,
-                                'filterModel'  => $characteristicsSearchModel,
-                                'summary'      => '',
-                                'columns'      => [
-                                    [ 'class' => 'yii\grid\SerialColumn' ],
-
-                                    'characteristic_id',
-                                    'name',
-
-                                    [ 'class' => 'yii\grid\ActionColumn' ],
-                                    //                                    [
-                                    //                                        'class'      => 'yii\grid\ActionColumn',
-                                    //                                        'urlCreator' => function ($action, $model, $key, $index)
-                                    //                                        {
-                                    //
-                                    //                                            return [
-                                    //                                                '/characteristics/view', 'id' => $model->characteristic_id,
-                                    //                                                '/characteristics/update', 'id' => $model->characteristic_id,
-                                    //
-                                    //                                            ];
-                                    //                                        },
-                                    //                                    ],
-                                ],
-                            ]
-                        );
-                        ?>
-
-                    </div>
-                </div>
+<!--                <div class="tab-pane" id="details" style="min-height:300px;">-->
+<!---->
+<!--                    <div class="box" style="border: none">-->
+<!---->
+<!--                        <div class="box-header">-->
+<!---->
+<!---->
+<!--                            <div class="box-title pull-right">-->
+<!--                                --><?//= Html::a('Новая характеристика', [ '/characteristics/create', 'product_id' => $model->id ], [ 'class' => 'btn btn-sm btn-warning' ]) ?>
+<!---->
+<!---->
+<!--                            </div>-->
+<!--                        </div>-->
+<!---->
+<!---->
+<!--                        --><?//
+//                        echo GridView::widget(
+//                            [
+//                                'dataProvider' => $characteristicsDataProvider,
+//                                'filterModel'  => $characteristicsSearchModel,
+//                                'summary'      => '',
+//                                'columns'      => [
+//                                    [ 'class' => 'yii\grid\SerialColumn' ],
+//
+//                                    'characteristic_id',
+//                                    'name',
+//
+//                                    [ 'class' => 'yii\grid\ActionColumn' ],
+//                                    //                                    [
+//                                    //                                        'class'      => 'yii\grid\ActionColumn',
+//                                    //                                        'urlCreator' => function ($action, $model, $key, $index)
+//                                    //                                        {
+//                                    //
+//                                    //                                            return [
+//                                    //                                                '/characteristics/view', 'id' => $model->characteristic_id,
+//                                    //                                                '/characteristics/update', 'id' => $model->characteristic_id,
+//                                    //
+//                                    //                                            ];
+//                                    //                                        },
+//                                    //                                    ],
+//                                ],
+//                            ]
+//                        );
+//                        ?>
+<!---->
+<!--                    </div>-->
+<!--                </div>-->
 
 
                 <div class="tab-pane" id="photos" style="padding-top:30px;min-height:300px;">

@@ -2,6 +2,7 @@
 namespace backend\controllers;
 
 use common\models\orders\Orders;
+use common\models\products\Products;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -58,9 +59,12 @@ class SiteController extends Controller
     {
 
         $countOrders = Orders::find()->count();
+        $countProducts = Products::find()->count();
 
         return $this->render('index',
-            ['countOrders'=>$countOrders,]
+            ['countOrders'=>$countOrders,
+            'countProducts'=>$countProducts,
+            ]
             );
     }
 

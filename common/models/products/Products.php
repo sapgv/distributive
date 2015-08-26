@@ -78,8 +78,8 @@ class Products extends \yii\db\ActiveRecord implements CartPositionInterface {
                 'class' => GalleryBehavior::className(),
                 'type' => 'products',
                 'extension' => 'jpg',
-                'directory' => Yii::getAlias('@imagesroot') . '/product/gallery',
-                'url' => Yii::getAlias('@images') . '/product/gallery',
+                'directory' => Yii::getAlias('@imagesroot') . '/products/gallery',
+                'url' => Yii::getAlias('@images') . '/products/gallery',
 
             ]
         ];
