@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogs>
+	<catalog id="1" id_parent="" level="1" name="1С ПРЕДПРИЯТИЕ" description=""/>
+	<catalog id="8" id_parent="1" level="2" name="1С Бухгалтерия" description="1С:Бухгалтерия 8 предназначена для учета различных видов финансово-хозяйственной деятельности предприятий"/>
+	<catalog id="9" id_parent="1" level="2" name="1С Зарплата и управление персоналом" description="1С:Зарплата и управление персоналом 8 - современный инструмент автоматизации задач управления персоналом, ведения кадрового учета и расчетов"/>
+	<catalog id="10" id_parent="1" level="2" name="1С Управление торговлей" description="1С:Управление торговлей 8 — это современный инструмент для повышения эффективности бизнеса торгового предприятия"/>
+	<catalog id="12" id_parent="1" level="2" name="ИТС" description=""/>
+	<catalog id="11" id_parent="1" level="2" name="Лицензии" description=""/>
+	<catalog id="2" id_parent="" level="1" name="АНТИВИРУСЫ" description=""/>
+	<catalog id="19" id_parent="2" level="2" name="Eset" description="ESET - антивирусная защита компьютера, мобильного устройства, серверов"/>
+	<catalog id="14" id_parent="2" level="2" name="Доктор веб" description="Антивирус Dr.Web для Windows. Минимальная защита от вирусов и хакерских атак"/>
+	<catalog id="13" id_parent="2" level="2" name="Касперский" description="Российский производитель антивирусного программного обеспечения для дома и бизнеса. Лаборатория Касперского"/>
+	<catalog id="3" id_parent="" level="1" name="ОПЕРАЦИОННЫЕ СИСТЕМЫ" description=""/>
+	<catalog id="15" id_parent="3" level="2" name="Windows desktop" description="Операционная система для пользователей"/>
+	<catalog id="16" id_parent="3" level="2" name="Windows server" description="Операционная система для серверов"/>
+	<catalog id="4" id_parent="" level="1" name="ОФИСНЫЕ ПРОГРАММЫ" description=""/>
+	<catalog id="17" id_parent="4" level="2" name="Microsoft office" description="Офисный пакет приложений для работы с различными типами документов: текстами, электронными таблицами, базами данных и др"/>
+	<catalog id="18" id_parent="4" level="2" name="Прочие офисные программы" description=""/>
+</catalogs>

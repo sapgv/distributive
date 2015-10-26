@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<product_id>49</product_id>
+		<catalog_id>8</catalog_id>
+		<gallery_id>49</gallery_id>
+		<name>1С:Бухгалтерия 8. Базовая версия</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>3300</price>
+	</product>
+	<product>
+		<product_id>50</product_id>
+		<catalog_id>8</catalog_id>
+		<gallery_id>50</gallery_id>
+		<name>1C:Бухгалтерия 8 ПРОФ</name>
+		<precontent/>
+		<popular>1</popular>
+		<price>13000</price>
+	</product>
+	<product>
+		<product_id>51</product_id>
+		<catalog_id>9</catalog_id>
+		<gallery_id>51</gallery_id>
+		<name>1С:Зарплата и Управление Персоналом 8. Базовая версия</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>17400</price>
+	</product>
+	<product>
+		<product_id>52</product_id>
+		<catalog_id>9</catalog_id>
+		<gallery_id>52</gallery_id>
+		<name>1С:Зарплата и Управление персоналом 8 ПРОФ</name>
+		<precontent/>
+		<popular>1</popular>
+		<price>4600</price>
+	</product>
+	<product>
+		<product_id>53</product_id>
+		<catalog_id>10</catalog_id>
+		<gallery_id>53</gallery_id>
+		<name>1C:Управление торговлей 8. Редакция 11. Базовая версия</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>4600</price>
+	</product>
+	<product>
+		<product_id>54</product_id>
+		<catalog_id>10</catalog_id>
+		<gallery_id>54</gallery_id>
+		<name>1C:Управление торговлей 8. Редакция 11. ПРОФ</name>
+		<precontent/>
+		<popular>1</popular>
+		<price>17400</price>
+	</product>
+	<product>
+		<product_id>21</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>21</gallery_id>
+		<name>Kaspersky Anti-Virus на 2 ПК</name>
+		<precontent/>
+		<popular>1</popular>
+		<price>1200</price>
+	</product>
+	<product>
+		<product_id>22</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>22</gallery_id>
+		<name>Kaspersky Anti-Virus на 2 ПК (продление)</name>
+		<precontent/>
+		<popular>1</popular>
+		<price>990</price>
+	</product>
+	<product>
+		<product_id>23</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>23</gallery_id>
+		<name>Kaspersky Internet Security на 2 ПК</name>
+		<precontent/>
+		<popular>1</popular>
+		<price>1600</price>
+	</product>
+	<product>
+		<product_id>24</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>24</gallery_id>
+		<name>Kaspersky Internet Security на 2 ПК (продление)</name>
+		<precontent/>
+		<popular>1</popular>
+		<price>1320</price>
+	</product>
+	<product>
+		<product_id>25</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>25</gallery_id>
+		<name>Kaspersky Internet Security на 3 ПК</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1990</price>
+	</product>
+	<product>
+		<product_id>26</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>26</gallery_id>
+		<name>Kaspersky Internet Security на 3 ПК (продление)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1490</price>
+	</product>
+	<product>
+		<product_id>27</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>27</gallery_id>
+		<name>Kaspersky Internet Security на 5 ПК</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>3900</price>
+	</product>
+	<product>
+		<product_id>28</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>28</gallery_id>
+		<name>Kaspersky Internet Security на 5 ПК (продление)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>2900</price>
+	</product>
+	<product>
+		<product_id>29</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>29</gallery_id>
+		<name>Dr.Web на 1 ПК (электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>990</price>
+	</product>
+	<product>
+		<product_id>30</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>30</gallery_id>
+		<name>Dr.Web на 2 ПК (коробка)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1290</price>
+	</product>
+	<product>
+		<product_id>31</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>31</gallery_id>
+		<name>Dr.Web на 3 ПК (электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1990</price>
+	</product>
+	<product>
+		<product_id>32</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>32</gallery_id>
+		<name>Dr.Web на 4 ПК (электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>2550</price>
+	</product>
+	<product>
+		<product_id>33</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>33</gallery_id>
+		<name>Dr.Web на 5 ПК (электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>3150</price>
+	</product>
+	<product>
+		<product_id>34</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>34</gallery_id>
+		<name>Dr.Web на 1 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>594</price>
+	</product>
+	<product>
+		<product_id>35</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>35</gallery_id>
+		<name>Dr.Web на 2 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>834</price>
+	</product>
+	<product>
+		<product_id>36</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>36</gallery_id>
+		<name>Dr.Web на 3 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1194</price>
+	</product>
+	<product>
+		<product_id>37</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>37</gallery_id>
+		<name>Dr.Web на 4 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1530</price>
+	</product>
+	<product>
+		<product_id>38</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>38</gallery_id>
+		<name>Dr.Web на 5 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1890</price>
+	</product>
+	<product>
+		<product_id>39</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>39</gallery_id>
+		<name>Dr. Web® Security Space на 1 ПК</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1290</price>
+	</product>
+	<product>
+		<product_id>40</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>40</gallery_id>
+		<name>Dr. Web® Security Space на 2 ПК</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1990</price>
+	</product>
+	<product>
+		<product_id>41</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>41</gallery_id>
+		<name>Dr. Web® Security Space на 3 ПК (электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>2340</price>
+	</product>
+	<product>
+		<product_id>42</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>42</gallery_id>
+		<name>Dr. Web® Security Space на 4 ПК (электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>3000</price>
+	</product>
+	<product>
+		<product_id>43</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>43</gallery_id>
+		<name>Dr. Web® Security Space на 5 ПК (электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>3500</price>
+	</product>
+	<product>
+		<product_id>44</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>44</gallery_id>
+		<name>Dr. Web® Security Space на 1 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>774</price>
+	</product>
+	<product>
+		<product_id>45</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>45</gallery_id>
+		<name>Dr. Web® Security Space на 2 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>960</price>
+	</product>
+	<product>
+		<product_id>46</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>46</gallery_id>
+		<name>Dr. Web® Security Space на 3 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1404</price>
+	</product>
+	<product>
+		<product_id>47</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>47</gallery_id>
+		<name>Dr. Web® Security Space на 4 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>1800</price>
+	</product>
+	<product>
+		<product_id>48</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>48</gallery_id>
+		<name>Dr. Web® Security Space на 5 ПК (продление электронно)</name>
+		<precontent/>
+		<popular>0</popular>
+		<price>2100</price>
+	</product>
+</products>
