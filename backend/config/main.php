@@ -12,6 +12,22 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
+
+    'aliases' => [
+
+        '@ftpGoodsImg' => 'images/goods',
+        '@localGoodsImg' => '@frontend/web/images/products/gallery',
+
+        '@ftpCatalogsImg' => '/images/catalogs',
+        '@localCatalogsImg' => '@frontend/web/images/catalogs/gallery',
+
+        '@localGalleryImg' => '@frontend/web/images/products/gallery',
+
+        '@localFiles' => '@app/files',
+
+
+    ],
+
     'components' => [
 
         'urlManager' => [

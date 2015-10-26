@@ -1,6 +1,7 @@
 <?php
 namespace backend\controllers;
 
+use common\models\catalogs\Catalogs;
 use common\models\orders\Orders;
 use common\models\products\Products;
 use Yii;
@@ -59,10 +60,13 @@ class SiteController extends Controller
     {
 
         $countOrders = Orders::find()->count();
+        $countCatalogs = Catalogs::find()->where(['not',['name'=>'ROOT']])->count();
         $countProducts = Products::find()->count();
 
         return $this->render('index',
-            ['countOrders'=>$countOrders,
+            [
+            'countOrders'=>$countOrders,
+            'countCatalogs'=>$countCatalogs,
             'countProducts'=>$countProducts,
             ]
             );

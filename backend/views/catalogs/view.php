@@ -49,7 +49,7 @@ $this->params[ 'breadcrumbs' ][] = $this->title;
                         'catalog_id',
 
                         [
-                            'label' => 'Имя',
+                            'label' => 'Наименование',
                             'value' => $model->name,
                         ],
                         [

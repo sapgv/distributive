@@ -23,7 +23,7 @@ class CartController extends Controller {
         $searchModel = new ProductsCartSearch();
         $dataProvider = $searchModel->search($products);
 
-        $order = new Orders;
+        $order = new Orders();
         $order->scenario = 'newOrder';
 
         if ( Yii::$app->request->post() )
@@ -49,7 +49,6 @@ class CartController extends Controller {
                         'name'  => $order->name,
                     ]
                 );
-
 
                 return Yii::$app->getResponse()->refresh();
 

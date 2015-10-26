@@ -30,7 +30,8 @@
         "yii2mod/yii2-ftp": "*",
         "maddoger/yii2-datetimepicker": "v1.4.3",
         "zxbodya/yii2-tinymce": "*@dev",
-        "zxbodya/yii2-elfinder": "*@dev"
+        "zxbodya/yii2-elfinder": "*@dev",
+        "tijsverkoyen/css-to-inline-styles": "1.5.4"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

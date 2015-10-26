@@ -26,7 +26,7 @@ var $menu = $("ul.menu");
                 // top: -1,
                 //left: width - 3,  // main should overlay submenu
                 left: width + 13,  // main should overlay submenu
-                height: height - 4  // padding for main dropdown's arrow
+                //height: height - 4  // padding for main dropdown's arrow
             });
 
             // Keep the currently activated row's highlighted look

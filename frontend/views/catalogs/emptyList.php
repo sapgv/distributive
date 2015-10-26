@@ -25,7 +25,7 @@ use yii\widgets\LinkPager;
 
 					Html::a(
 					$catalog->name . " (". $catalog->getProducts()->count() .")",
-					['catalogs/view','catalog_id'=>$catalog->id],
+					['catalogs/view','catalog_id'=>$catalog->catalog_id],
 					['style'=>'margin-right:30px;']
 					),
 					['style'=>'display:inline-block;']

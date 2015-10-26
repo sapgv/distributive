@@ -115,9 +115,9 @@ use frontend\controllers\CookieController;
         'item' => function ($index, $label, $name, $checked, $value) {
             
             if ($value == ProductsCatalogSearch::ALL) {
-//                if ($_GET['ProductsCatalogSearch']['count']==ProductsCatalogSearch::ALL or !isset($_GET['ProductsCatalogSearch']['count'])) {
-//                   $checked = true;
-//                }
+                if ($_GET['ProductsCatalogSearch']['count']==ProductsCatalogSearch::ALL or !isset($_GET['ProductsCatalogSearch']['count'])) {
+                   $checked = true;
+                }
                
                return '<label class="btn btn-default' . ($checked ? ' active' : '') . '">
                <div style="margin:6px 6px 0px 0px;float:left;border-radius: 50%;    width: 8px;height: 8px;background-color:#999999;"></div>
@@ -125,14 +125,14 @@ use frontend\controllers\CookieController;
                 Html::radio($name, $checked, ['value' => $value, 'class' => 'popular-btn']) . $label . '</label>';
             }
             elseif ($value == ProductsCatalogSearch::AVAILABLE) {
-//                $checked = $_GET['ProductsCatalogSearch']['count']==ProductsCatalogSearch::AVAILABLE;
+                $checked = $_GET['ProductsCatalogSearch']['count']==ProductsCatalogSearch::AVAILABLE;
                 return '<label class="btn btn-default' . ($checked ? ' active' : '') . '">
                 <div style="margin:6px 6px 0px 0px;float:left;border-radius: 50%;   width: 8px;height: 8px;background-color:#5cb85c;"></div>
                 ' .
                 Html::radio($name, $checked, ['value' => $value, 'class' => 'popular-btn']) . $label . '</label>';
             }
             elseif ($value == ProductsCatalogSearch::NOT_AVAILABLE) {
-//                $checked = $_GET['ProductsCatalogSearch']['count']==ProductsCatalogSearch::NOT_AVAILABLE;
+                $checked = $_GET['ProductsCatalogSearch']['count']==ProductsCatalogSearch::NOT_AVAILABLE;
                 return '<label class="btn btn-default' . ($checked ? ' active' : '') . '">
                 <div style="margin:6px 6px 0px 0px;float:left;border-radius: 50%;   width: 8px;height: 8px;background-color:#f1c40f;"></div>
                 ' .

@@ -17,11 +17,6 @@ use frontend\controllers\CookieController;
 class ProductsPopularSearch extends Products
 {
 
-    const ALL = 'Все';
-    const AVAILABLE = 'В наличии';
-    const NOT_AVAILABLE = 'Под заказ';
-   
-
     public $name_catalog;
     /**
      * @inheritdoc
@@ -83,41 +78,21 @@ class ProductsPopularSearch extends Products
 
         if (!$this->validate()) {
             // uncomment the following line if you do not want to any records when validation fails
-            // $query->where('0=1');
             return $dataProvider;
         }
 
+        if ( isset($params['ProductsPopularSearch']['count'])) {
 
-        $query->andFilterWhere([
-            'product_id' => $this->id,
-        ]);
+            if ($params['ProductsPopularSearch']['count'] == Products::AVAILABLE) {
+                // echo "в наличии";
+                $query->andWhere('count > 0');
+            }
+            elseif ($params['ProductsPopularSearch']['count'] == Products::NOT_AVAILABLE) {
+                // echo "нетууу";
+                $query->andWhere('count <= 0');
+            }
+        }
 
-        
-        
-
-        $query->andFilterWhere(['like', 'name', $this->name])
-            // ->andFilterWhere(['like', 'catalogs.name', $this->name_catalog])
-            // ->andFilterWhere(['like', 'comment', $this->comment])
-            // ->andFilterWhere(['like', 'precontent', $this->precontent])
-            // ->andFilterWhere(['like', 'content', $this->content])
-            // ->andFilterWhere(['like', 'source', $this->source])
-            // ->andFilterWhere(['like', 'versions_data', $this->versions_data])
-            ;
-
-            // print_r($query);
-
-//        if ($params['ProductsPopularSearch']['count'] == self::ALL) {
-//            // echo "всееее";
-//            // $query->andWhere('a > :a', ['a' => 'a'])
-//        }
-//        elseif ($params['ProductsPopularSearch']['count'] == self::AVAILABLE) {
-//            // echo "в наличии";
-//            $query->andWhere('count > 0');
-//        }
-//        elseif ($params['ProductsPopularSearch']['count'] == self::NOT_AVAILABLE) {
-//            // echo "нетууу";
-//            $query->andWhere('count <= 0');
-//        }
         return $dataProvider;
     }
 }

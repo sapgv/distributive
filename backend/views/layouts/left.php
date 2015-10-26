@@ -43,6 +43,7 @@ use yii\bootstrap\Nav;
                     ['label' => '<i class="fa fa-folder"></i><span>Каталог</span>', 'url' => ['/catalogs/index'], 'active'=>$this->context->getUniqueId() ==='catalogs'],
                     ['label' => '<i class="fa fa-cubes"></i><span>Товары</span>', 'url' => ['/products/index'], 'active'=>$this->context->getUniqueId() ==='products'],
                     ['label' => '<i class="fa fa-shopping-cart"></i><span>Заказы</span>', 'url' => ['/orders/index'], 'active'=>$this->context->getUniqueId() ==='orders'],
+                    ['label' => '<i class="fa fa-file-code-o"></i><span>FTP</span>', 'url' => ['/ftp']],
                     ['label' => '<i class="fa fa-file-code-o"></i><span>Gii</span>', 'url' => ['/gii']],
                     ['label' => '<i class="fa fa-dashboard"></i><span>Debug</span>', 'url' => ['/debug']],
                     [

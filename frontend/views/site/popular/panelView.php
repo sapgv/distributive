@@ -36,21 +36,17 @@ use yii\helpers\Url;
 				'style'=>'height:187px;text-align:center;'
 				]
 				);
-				
-//				$mainPhoto = $model->mainPhoto;
-//				echo Html::a(
-//					Html::img($mainPhoto->url,
-//					[
-//					'class'=>'img-responsive',
-//					'style'=>'display: -moz-inline-box;
-//								display: inline-block;
-//								vertical-align: middle;
-//								height:100%;
-//								zoom: 1;'
-//					]
-//					),
-//					['products/view','product_id'=>$model->id]);
-				
+
+				$mainPhoto = $model->MainPhoto;
+				echo Html::a(
+					Html::img(
+						$mainPhoto->getUrl('original'),
+						[
+							'class' => 'img-responsive',
+							'style' => 'display: -moz-inline-box; display: inline-block;	vertical-align: middle;	height:100%; zoom: 1;'
+						]),
+					[ 'products/view', 'product_id' => $model->product_id ]);
+
 		echo HTML::endTag('div');
 		// panel body
 

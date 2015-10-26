@@ -69,7 +69,7 @@ $this->title = 'Товары';
                         'value'=>function ($model) {
                             $mainPhoto = $model->MainPhoto;
                             return Html::a(
-                                Html::img($mainPhoto->getUrl('original'),['class'=>'img-responsive','style'=>'max-height:120px;']),
+                                Html::img($mainPhoto->getUrl('original'),['class'=>'img-responsive','style'=>'max-width:50px;']),
                                 ['products/view','product_id'=>$model->product_id],['style'=>'display:block;']);
                         },
 
@@ -145,9 +145,9 @@ $this->title = 'Товары';
 
         <?php
 
-        echo LinkPager::widget([
-            'pagination'=>$dataProvider->pagination,
-        ]);
+//        echo LinkPager::widget([
+//            'pagination'=>$dataProvider->pagination,
+//        ]);
         ?>
     </div>
 

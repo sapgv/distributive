@@ -4,7 +4,6 @@ namespace common\models\products;
 
 use Yii;
 use sapgv\yii2\galleryManager\GalleryImage;
-//use sapgv\yii2\imageAttachment\ImageAttachmentBehavior;
 use sapgv\yii2\galleryManager\GalleryBehavior;
 use yz\shoppingcart\CartPositionInterface;
 use yz\shoppingcart\CartPositionTrait;
@@ -18,8 +17,10 @@ use yii\helpers\Html;
  *
  */
 class Products extends \yii\db\ActiveRecord implements CartPositionInterface {
-// class Products extends \kartik\tree\models\Tree implements CartPositionInterface {
 
+    const ALL = 'Все';
+    const AVAILABLE = 'В наличии';
+    const NOT_AVAILABLE = 'Под заказ';
 
     public $name_catalog;
     public $mainPhoto;
@@ -77,7 +78,7 @@ class Products extends \yii\db\ActiveRecord implements CartPositionInterface {
             'galleryBehavior' => [
                 'class' => GalleryBehavior::className(),
                 'type' => 'products',
-                'extension' => 'jpg',
+                'extension' => 'png',
                 'directory' => Yii::getAlias('@imagesroot') . '/products/gallery',
                 'url' => Yii::getAlias('@images') . '/products/gallery',
 

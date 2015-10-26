@@ -41,7 +41,7 @@ class Orders extends \yii\db\ActiveRecord
 		return [
         
         [['name', 'email', 'phone'], 'required'],
-        [['name', 'email', 'phone', 'comment', 'status', 'address'], 'safe'],
+        [['create_time', 'name', 'email', 'phone', 'comment', 'status', 'address'], 'safe'],
 
         // the email attribute should be a valid email address
         ['email', 'email'],
@@ -87,7 +87,7 @@ class Orders extends \yii\db\ActiveRecord
 			'status' => 'Статус',
 			'summa' => 'Сумма',
 			'comment' => 'Комментарий к заказу',
-			 'address'=>'Адрес доставки',
+			'address'=>'Адрес доставки',
 		);
 	}
 
@@ -131,16 +131,23 @@ class Orders extends \yii\db\ActiveRecord
 
 	public function afterSave($insert, $changedAttributes)
 	{
-		//сохраним товары заказа
-		$this->saveOrdersProducts();
-		
-		//сохраним XML заказ на фтп
-		$this->saveOrderFtp();
-
-		// отправка почты
-//		$this->sentOrderMail();
 
 		parent::afterSave($insert, $changedAttributes);
+
+		if ($this->scenario == 'newOrder') {
+			//сохраним товары заказа
+			$this->saveOrdersProducts();
+
+			//сохраним XML заказ на фтп
+			$this->saveOrderFtp();
+
+			// отправка почты
+			$this->sentOrderMail();
+
+		}
+
+
+
 	}
 
 	public function saveOrdersProducts()
@@ -168,7 +175,7 @@ class Orders extends \yii\db\ActiveRecord
 		
 		$message->setFrom([Yii::$app->params['adminEmail']]);
 		$message->setTo("grisha.sapgv@mail.ru");
-		$message->setSubject("Интернет заказ № ".$this->id);
+		$message->setSubject("Интернет заказ № ".$this->order_id);
 		$message->send();
 
 	}
@@ -181,6 +188,7 @@ class Orders extends \yii\db\ActiveRecord
         $pass = Yii::$app->params['ftp']['pass'];
         $ftp  = new FtpClient();
         $ftp->connect($host);
+
         $ftp->login($name, $pass);
 
         $dirExist = $ftp->isDir('orders');
@@ -190,13 +198,14 @@ class Orders extends \yii\db\ActiveRecord
         }
 
         if (ftp_chdir($ftp->getConnection(), "orders")) {
-            
-            // $order = \app\models\orders\Orders::findOne(70);
+
+
             $order = $this;
+
             $orderXML = new \SimpleXMLElement("<?xml version=\"1.0\" encoding=\"windows-1251\"?><order></order>");
             
             $orderXML->addAttribute('order_id', $order->order_id);
-            $orderXML->addAttribute('create_time', $order->create_time);
+            $orderXML->addAttribute('create_time', $order->getFormattedCreateTime());
             $orderXML->addAttribute('name', $order->name);
             $orderXML->addAttribute('email', $order->email);
             $orderXML->addAttribute('phone', $order->phone);
@@ -229,6 +238,12 @@ class Orders extends \yii\db\ActiveRecord
 	public function getProducts()
 	{
 		return $this->hasMany(OrdersProducts::className(), ['order_id' => 'order_id']);
+	}
+
+	public function getFormattedCreateTime()
+	{
+		$newOrder = Orders::findOne($this->order_id);
+		return \DateTime::createFromFormat('Y-m-d H:i:s', $newOrder->create_time)->format('d.m.Y');
 	}
 
 	

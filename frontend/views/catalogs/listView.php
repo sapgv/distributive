@@ -9,13 +9,12 @@ use yii\helpers\Url;
 
 		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 			<div style="padding-top:15px;max-height:120px;">
-				<?php 
+				<?php
 
-//			$mainPhoto = $model->mainPhoto;
-//			echo Html::a(
-//				Html::img($mainPhoto->url,['class'=>'img-responsive','style'=>'max-height:120px;']),
-//				['products/view','product_id'=>$model->id],['style'=>'display:block;']);
-			
+				$mainPhoto = $model->MainPhoto;
+				echo Html::a(
+					Html::img($mainPhoto->getUrl('original'), [ 'class' => 'img-responsive', 'style' => 'max-height:120px;' ]),
+					[ 'products/view', 'product_id' => $model->product_id ], [ 'style' => 'display:block;' ]);
 			?>
 
 

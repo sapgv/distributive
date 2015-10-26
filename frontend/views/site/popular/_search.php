@@ -12,6 +12,9 @@ use frontend\controllers\CookieController;
 /* @var $this yii\web\View */
 /* @var $model common\models\ProductsSearch */
 /* @var $form yii\widgets\ActiveForm */
+
+$request = Yii::$app->request;
+$nameClass = (new ReflectionClass($model))->getShortName();
 ?>
 
 <div class="products-search">
@@ -28,45 +31,47 @@ use frontend\controllers\CookieController;
    
 
 
-    <?php 
+    <?php
+
+    print_r($request->get($name)['count']);
 
     echo $form->field($model, 'count', 
         [
         'template'=>'{input}',
         ]
     )->radioList([
-        'Все' => ProductsPopularSearch::ALL,
-        'В наличии' => ProductsPopularSearch::AVAILABLE,
-        'Под заказ' => ProductsPopularSearch::NOT_AVAILABLE,
+        'Все' => Products::ALL,
+        'В наличии' => Products::AVAILABLE,
+        'Под заказ' => Products::NOT_AVAILABLE,
         
     ],
     [
         'id' => 'status',
         'class' => 'btn-group',
         'data-toggle' => 'buttons',
-        
         'unselect' => null, // remove hidden field
-        'item' => function ($index, $label, $name, $checked, $value) {
-            
-            if ($value == ProductsPopularSearch::ALL) {
-//                if ($_GET['ProductsPopularSearch']['count']==ProductsPopularSearch::ALL or !isset($_GET['ProductsPopularSearch']['count'])) {
-//                   $checked = true;
-//                }
-               
+        'item' => function ($index, $label, $name, $checked, $value) use ($request, $nameClass) {
+
+
+            if ($value == Products::ALL) {
+                if ($_GET['ProductsPopularSearch']['count']==Products::ALL or !isset($_GET['ProductsPopularSearch']['count'])) {
+                   $checked = true;
+                }
+
                return '<label class="btn btn-default' . ($checked ? ' active' : '') . '">
                <div style="margin:6px 6px 0px 0px;float:left;border-radius: 50%;    width: 8px;height: 8px;background-color:#999999;"></div>
                ' .
                 Html::radio($name, $checked, ['value' => $value, 'class' => 'popular-btn']) . $label . '</label>';
             }
-            elseif ($value == ProductsPopularSearch::AVAILABLE) {
-//                $checked = $_GET['ProductsPopularSearch']['count']==ProductsPopularSearch::AVAILABLE;
+            elseif ($value == Products::AVAILABLE) {
+                $checked = $_GET['ProductsPopularSearch']['count']==Products::AVAILABLE;
                 return '<label class="btn btn-default' . ($checked ? ' active' : '') . '">
                 <div style="margin:6px 6px 0px 0px;float:left;border-radius: 50%;   width: 8px;height: 8px;background-color:#5cb85c;"></div>
                 ' .
                 Html::radio($name, $checked, ['value' => $value, 'class' => 'popular-btn']) . $label . '</label>';
             }
-            elseif ($value == ProductsPopularSearch::NOT_AVAILABLE) {
-//                $checked = $_GET['ProductsPopularSearch']['count']==ProductsPopularSearch::NOT_AVAILABLE;
+            elseif ($value == Products::NOT_AVAILABLE) {
+                $checked = $_GET['ProductsPopularSearch']['count']==Products::NOT_AVAILABLE;
                 return '<label class="btn btn-default' . ($checked ? ' active' : '') . '">
                 <div style="margin:6px 6px 0px 0px;float:left;border-radius: 50%;   width: 8px;height: 8px;background-color:#f1c40f;"></div>
                 ' .

@@ -111,12 +111,16 @@ $this->title = 'Заказ №'. $model->order_id;
                     'encodeLabel'=>false,
                     'format'=>'raw',
                     'value'=>function ($model) {
+
                         $product = Products::findOne($model->product_id);
 
-                        $mainPhoto = $product->MainPhoto;
-                        return Html::a(
-                            Html::img($mainPhoto->getUrl('original'),['class'=>'img-responsive','style'=>'max-height:120px;']),
-                            ['products/view','product_id'=>$model->product_id],['style'=>'display:block;']);
+                        if ($product <> null) {
+                            $mainPhoto = $product->getMainPhoto();
+                            return Html::a(
+                                Html::img($mainPhoto->getUrl('original'), [ 'class' => 'img-responsive', 'style' => 'max-height:120px;' ]),
+                                [ 'products/view','product_id'=>$model->product_id],['style'=>'display:block;']);
+                        }
+//
                     },
 
                 ],

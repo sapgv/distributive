@@ -97,18 +97,18 @@ class ProductsCatalogSearch extends Products
         $query->andFilterWhere(['<=', 'price', $this->price_max]);
 
         //print_r($params['ProductsCatalogSearch']);
-//        if ($params['ProductsCatalogSearch']['count'] == self::ALL) {
-//            // echo "всееее";
-//            // $query->andWhere('a > :a', ['a' => 'a'])
-//        }
-//        elseif ($params['ProductsCatalogSearch']['count'] == self::AVAILABLE) {
-//            // echo "в наличиbbи";
-//            $query->andWhere('count > 0');
-//        }
-//        elseif ($params['ProductsCatalogSearch']['count'] == self::NOT_AVAILABLE) {
-//            // echo "нетууу";
-//            $query->andWhere('count <= 0');
-//        }
+        if ($params['ProductsCatalogSearch']['count'] == self::ALL) {
+            // echo "всееее";
+            // $query->andWhere('a > :a', ['a' => 'a'])
+        }
+        elseif ($params['ProductsCatalogSearch']['count'] == self::AVAILABLE) {
+            // echo "в наличиbbи";
+            $query->andWhere('count > 0');
+        }
+        elseif ($params['ProductsCatalogSearch']['count'] == self::NOT_AVAILABLE) {
+            // echo "нетууу";
+            $query->andWhere('count <= 0');
+        }
 
         return [
                 'dataProvider'=>$dataProvider,

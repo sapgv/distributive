@@ -1,4 +1,5 @@
-<?php 
+<?php
+use common\models\products\Products;
 use yii\helpers\Html;
 use yii\helpers\Url; 
 use yii\bootstrap\Button;
@@ -80,10 +81,19 @@ $this->registerJs($jsCartClear, \yii\web\View::POS_READY);
 		'style'=>'border-bottom:1px solid #ddd;'],
 		 
 		'format'=>'html',
-		'value' => function ($model) { 		                     
-             $mainPhoto = $model->mainPhoto;
-			return Html::img($mainPhoto->url,['class'=>'img-responsive','style'=>'width:80px;']);
+		'value' => function ($model) {
+			$product = Products::findOne($model->product_id);
 
+             $mainPhoto = $model->getMainPhoto();
+//			print_r($mainPhoto);
+//			return Html::img($mainPhoto->url,['class'=>'img-responsive','style'=>'width:80px;']);
+			return Html::a(
+				Html::img($mainPhoto->getUrl('original'), [ 'class' => 'img-responsive', 'style' => 'height:50px;' ]),
+				[ 'products/view', 'product_id' => $model->product_id ], [ 'style' => 'display:block;' ]);
+
+//			echo Html::a(
+//				Html::img($mainPhoto->getUrl('original'), [ 'class' => 'img-responsive', 'style' => 'max-height:120px;' ]),
+//				[ 'products/view', 'product_id' => $model->product_id ], [ 'style' => 'display:block;' ]);
             
     		},
 		],

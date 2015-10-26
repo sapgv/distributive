@@ -12,6 +12,23 @@ $this->title = 'Dashboard';
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 
         <!-- small box -->
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <h3><?=$countCatalogs?></h3>
+
+                <p>Каталог</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-folder"></i>
+            </div>
+            <?= Html::a('Перейти <i class="fa fa-arrow-circle-right"></i>', Url::toRoute('/catalogs/index'), [ 'class' => 'small-box-footer' ]) ?>
+        </div>
+
+    </div>
+
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+
+        <!-- small box -->
         <div class="small-box bg-green">
             <div class="inner">
                 <h3><?=$countProducts?></h3>

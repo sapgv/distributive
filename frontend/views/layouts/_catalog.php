@@ -37,18 +37,18 @@ echo Html::endTag('ul');
 											// echo $product->description;
 											echo Html::beginTag('li',['style'=>'margin-bottom: 10px;']);
 											echo Html::beginTag('div',['class'=>'row','style'=>'margin-left: 0px;margin-right: 0px;']);
-												echo Html::beginTag('div',['class'=>'col-xs-2 col-sm-2 col-md-2 col-lg-2','style'=>'padding-top:10px;']);
-//													if ($child->getBehavior('coverBehavior')->hasImage()) {
-//
-//													echo Html::a(
-//														Html::img($child->getBehavior('coverBehavior')->getUrl('original'),['class'=>'img-responsive','style' => '']),
-//														['catalogs/view','catalog_id'=>$child->catalog_id]
-//
-//														);
-//
-//
-//
-//													}
+												echo Html::beginTag('div',['class'=>'col-xs-2 col-sm-2 col-md-2 col-lg-2','style'=>'padding-top:10px; text-align:center;']);
+													if ($child->getBehavior('coverBehavior')->hasImage()) {
+
+													echo Html::a(
+														Html::img($child->getBehavior('coverBehavior')->getUrl('original'),['class'=>'img-responsive','style' => 'display:inline; max-height:80px;']),
+														['catalogs/view','catalog_id'=>$child->catalog_id]
+
+														);
+
+
+
+													}
 												echo Html::endTag('div');
 					
 												echo Html::beginTag('div',['class'=>'col-xs-10 col-sm-10 col-md-10 col-lg-10']);

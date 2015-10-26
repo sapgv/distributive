@@ -9,7 +9,7 @@ use yii\helpers\Html;
 foreach ($catalog->children()->all() as $child) {
 	echo Html::beginTag('div',['class'=>'col-xs-2 col-sm-2 col-md-2 col-lg-2','style'=>'']);
 		if ($child->getBehavior('coverBehavior')->hasImage()) {
-		echo Html::img($child->getBehavior('coverBehavior')->getUrl('catalog'),['class'=>'img-responsive','style' => '']);
+		echo Html::img($child->getBehavior('coverBehavior')->getUrl('original'),['class'=>'img-responsive','style' => '']);
 		
 		} 
 	echo Html::endTag('div');

@@ -1,7 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic-ext,cyrillic);
 html,
 body {
     height: 100%;
     background-color: #F1F2F2;
+    font-family: 'Open Sans', sans-serif!important;
 }
 
 .wrap {
@@ -167,4 +169,7 @@ a.desc:after {
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+.popover {
+    font-family: 'Open Sans', sans-serif!important;
 }

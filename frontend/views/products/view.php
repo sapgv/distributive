@@ -70,7 +70,7 @@ use yii\helpers\Url;
 		<!-- <h4><?php 
 		echo $model->price . " P";
 		?></h4> --> 	
-		<span class="h3" style="color:#d2322d;"><?php echo $model->price; ?><i class="glyphicon glyphicon-ruble" style="font-size: 18px;" aria-hidden="true"></i></span>
+		<span class="h3" style="color:#d2322d;"><?php echo number_format($model->price,0,'.',' '); ?><i class="glyphicon glyphicon-ruble" style="font-size: 18px;" aria-hidden="true"></i></span>
 		</div>
 
 		<div style="padding:15px 0 15px 0;">

@@ -10,16 +10,11 @@ use yii\helpers\Url;
 
 		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 			<div style="padding-top:15px;max-height:120px;">
-				<?php 
-				// print_r($model->getBehavior('galleryBehavior'));
-				// print_r($model->getBehavior('galleryBehavior')->getProductMainPhoto($model->id));
-				// print_r($model->gallery_id);
-			 $mainPhoto = $model->MainPhoto;
-//				print_r($mainPhoto);
-//			$mainPhoto = $model->getBehavior('galleryBehavior')->getProductMainPhoto($model->gallery_id);
-			echo Html::a(
-				Html::img($mainPhoto->getUrl('original'),['class'=>'img-responsive','style'=>'max-height:120px;']),
-				['products/view','product_id'=>$model->product_id],['style'=>'display:block;']);
+				<?php
+				$mainPhoto = $model->MainPhoto;
+				echo Html::a(
+				Html::img($mainPhoto->getUrl('original'), [ 'class' => 'img-responsive', 'style' => 'max-height:120px;' ]),
+				[ 'products/view', 'product_id' => $model->product_id ], [ 'style' => 'display:block;' ]);
 			?>
 
 
