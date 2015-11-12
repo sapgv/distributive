@@ -105,6 +105,21 @@ class OrdersController extends Controller
 
     }
 
+    public function actionMailOrder($order_id) {
+
+        $model = $this->findModel($order_id);
+        $model->sentOrderMail();
+
+//            return $this->render(
+//                'mail-template', [
+//                    'model' => $model,
+//                ]
+//            );
+
+
+
+    }
+
 
 
 

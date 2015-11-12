@@ -1,20 +1,18 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: sapgv
+ * Date: 13.11.2015
+ * Time: 0:20
+ */
 
 namespace backend\models\ftp;
 
 use Yii;
 use yii2mod\ftp\FtpClient;
-use common\models\properties\Values;
+use common\models\properties\Properties;
 
-/**
- * This is the model class for table "values".
- *
- * @property integer $id
- * @property string $name
- *
- */
-class ValuesFtp extends Values
-{
+class PropertiesFtp extends Properties {
 
     public static function getFiles()
     {
@@ -38,33 +36,33 @@ class ValuesFtp extends Values
     public static function parseValues($local_file)
     {
         //сначала удалим весь каталог
-        ValuesFtp::deleteAll();
+        Properties::deleteAll();
 
         if (file_exists($local_file)) {
             $xml = simplexml_load_file($local_file);
-            
-            
-            foreach ($xml->values as $valuesXML) {
-                self::SaveValue($valuesXML);
-                }
-        
-        } 
+
+
+            foreach ($xml->properties as $propertiesXML) {
+                self::SaveValue($propertiesXML);
+            }
+
+        }
         else {
             exit('Не удалось открыть файл values.xml.');
         }
     }
 
-  
-     public static function SaveValue($valuesXML)
-    {
-        foreach ($valuesXML as $valueXML) {
 
-            $name = (string) $valueXML->name;
-            $value = ValuesFtp::findOne($name);
+    public static function SaveValue($propertiesXML)
+    {
+        foreach ($propertiesXML as $property) {
+
+            $name = (string) $property->name;
+            $value = Properties::findOne($name);
 
             if ( is_null($value)) {
                 // создаем запись
-                $value = new ValuesFtp;
+                $value = new Properties();
                 $value->name = $name;
                 $value->save(false);
             }
@@ -80,7 +78,5 @@ class ValuesFtp extends Values
 
 
     }
-
-
 
 }

@@ -169,10 +169,9 @@ class Orders extends \yii\db\ActiveRecord
 
 	public function sentOrderMail()
 	{
-		
-		
-		$message = Yii::$app->mail->compose('order',['order'=>$this]);
-		
+
+		$message = Yii::$app->mail->compose('order-mail',['model'=>$this]);
+
 		$message->setFrom([Yii::$app->params['adminEmail']]);
 		$message->setTo("grisha.sapgv@mail.ru");
 		$message->setSubject("Интернет заказ № ".$this->order_id);

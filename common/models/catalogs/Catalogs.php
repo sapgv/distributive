@@ -6,7 +6,7 @@ use Yii;
 use common\models\products\Products;
 use creocoder\nestedsets\NestedSetsBehavior;
 use \yii2mod\ftp\FtpClient;
-use zxbodya\yii2\imageAttachment\ImageAttachmentBehavior;
+use sapgv\yii2\imageAttachment\ImageAttachmentBehavior;
 /**
  * This is the model class for table "catalogs".
  *

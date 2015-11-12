@@ -4,7 +4,7 @@ use common\models\catalogs\Catalogs;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use zxbodya\yii2\imageAttachment\ImageAttachmentWidget;
+use sapgv\yii2\imageAttachment\ImageAttachmentWidget;
 /* @var $this yii\web\View */
 /* @var $model backend\models\catalogs\CatalogsAdmin */
 /* @var $form yii\widgets\ActiveForm */

@@ -26,7 +26,7 @@
         "kartik-v/yii2-tabs-x": "v1.2.1",
         "sapgv/yii2-gallery-manager": "*",
         "kartik-v/yii2-widget-touchspin": "*",
-        "zxbodya/yii2-image-attachment": "*@dev",
+        "sapgv/yii2-image-attachment": "*@dev",
         "yii2mod/yii2-ftp": "*",
         "maddoger/yii2-datetimepicker": "v1.4.3",
         "zxbodya/yii2-tinymce": "*@dev",
@@ -52,6 +52,10 @@
         {
             "type":"git",
             "url":"git@github.com:sapgv/yii2-gallery-manager.git"
+        },
+        {
+            "type":"git",
+            "url":"git@github.com:sapgv/yii2-image-attachment.git"
         }
     ]
 }
