@@ -9,7 +9,7 @@ use yii\widgets\ListView;
 use yii\helpers\ArrayHelper;
 use common\models\catalogs\Catalogs;
 
-use zxbodya\yii2\imageAttachment\ImageAttachmentWidget;
+use imageAttachment\yii2\imageAttachment\ImageAttachmentWidget;
 use zxbodya\yii2\galleryManager\GalleryManagerWidget;
 use zxbodya\yii2\galleryManager\GalleryManager;
 use dosamigos\tinymce\TinyMce;

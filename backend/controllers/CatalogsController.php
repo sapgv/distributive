@@ -9,7 +9,7 @@ use backend\models\catalogs\CatalogsAdminSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use zxbodya\yii2\imageAttachment\ImageAttachmentAction;
+use sapgv\yii2\imageAttachment\ImageAttachmentAction;
 
 /**
  * CatalogsController implements the CRUD actions for CatalogsAdmin model.

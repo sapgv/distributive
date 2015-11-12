@@ -2,6 +2,8 @@
 
 namespace common\models\products;
 
+use yii\data\ActiveDataProvider;
+use common\models\properties\ProductsProperties;
 use Yii;
 use sapgv\yii2\galleryManager\GalleryImage;
 use sapgv\yii2\galleryManager\GalleryBehavior;
@@ -188,5 +190,20 @@ class Products extends \yii\db\ActiveRecord implements CartPositionInterface {
         $mainPhoto = new GalleryImage($galleryBehavior, $imageData);
         return $mainPhoto;
 
+    }
+
+    public function getProperties()
+    {
+//        return $this->hasMany(ProductsProperties::className(), ['product_id' => 'product_id']);
+//            ->orderBy('id');
+
+        $query = ProductsProperties::find()->where(['product_id' => $this->product_id]);
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+
+        ]);
+
+       return $dataProvider;
     }
 }

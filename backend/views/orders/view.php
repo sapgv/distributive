@@ -16,6 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
 		<div class="box-tools">
 			<?= Html::a('Редактировать',\yii\helpers\Url::toRoute(['update', 'order_id' => $model->order_id]),['class' => 'btn btn-sm btn-warning'])?>
 			<?= Html::a('Сохранить на FTP',\yii\helpers\Url::toRoute(['save-order-ftp', 'order_id' => $model->order_id]),['class' => 'btn btn-sm btn-default'])?>
+			<?= Html::a('Отправить Email',\yii\helpers\Url::toRoute(['mail-order', 'order_id' => $model->order_id]),['class' => 'btn btn-sm btn-primary'])?>
 		</div>
 
 	</div>

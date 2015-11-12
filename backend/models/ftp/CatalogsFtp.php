@@ -4,9 +4,7 @@ namespace backend\models\ftp;
 
 use Yii;
 use common\models\catalogs\Catalogs;
-use creocoder\nestedsets\NestedSetsBehavior;
 use yii2mod\ftp\FtpClient;
-use backend\models\ftp\Tree;
 
 
 /**
@@ -21,53 +19,53 @@ use backend\models\ftp\Tree;
  * @property integer $rgt
  * @property integer $level
  */
-class CatalogsFtp extends Catalogs
-{
-    
+class CatalogsFtp extends Catalogs {
+
     // ftp function
 
-    public static function getFiles()
-    {
-    $host = "192.168.129.128";
-    $ftp = new FtpClient();
-    $ftp->connect($host);
-    $ftp->login();
+    public static function getFiles() {
+        $host = Yii::$app->params[ 'ftp' ][ 'host' ];
+        $name = Yii::$app->params[ 'ftp' ][ 'name' ];
+        $pass = Yii::$app->params[ 'ftp' ][ 'pass' ];
+        $ftp = new FtpClient();
+        $ftp->connect($host);
 
-     $remote_file = "catalogs.xml";
-     //$local_file = Yii::getAlias('@app').DIRECTORY_SEPARATOR.'files'.DIRECTORY_SEPARATOR."catalogs.xml";
-     $local_file = Yii::getAlias('@localGoodsImg').DIRECTORY_SEPARATOR."catalogs.xml";
+        $ftp->login($name, $pass);
 
-     $ftp->get( $local_file,  $remote_file, $mode=FTP_ASCII);
+        $remote_file = Yii::getAlias('@ftpXml') . DIRECTORY_SEPARATOR . "catalogs.xml";
+        $local_file = Yii::getAlias('@localXml') . DIRECTORY_SEPARATOR . "catalogs.xml";
 
-     self::parseCatalog($local_file);
-     
+        $ftp->get($local_file, $remote_file, $mode = FTP_ASCII);
+
+        self::parseCatalog($local_file);
+
     }
 
-    public static function getImages()
-    {
-     $host = "192.168.129.128";
-     $ftp = new FtpClient();
-     $ftp->connect($host);
-     $ftp->login();
+    public static function getImages() {
 
-     $files = $ftp->scanDirWin(Yii::getAlias('@ftpCatalogsImg'),false );
+        $host = Yii::$app->params[ 'ftp' ][ 'host' ];
+        $name = Yii::$app->params[ 'ftp' ][ 'name' ];
+        $pass = Yii::$app->params[ 'ftp' ][ 'pass' ];
+        $ftp = new FtpClient();
+        $ftp->connect($host);
 
-//        print_r($files);
-     foreach ($files as $file) {
+        $ftp->login($name, $pass);
 
-        $local_file = Yii::getAlias('@localCatalogsImg').DIRECTORY_SEPARATOR.$file['name'];
-        $remote_file = Yii::getAlias('@ftpCatalogsImg').DIRECTORY_SEPARATOR.$file['name'];
+        $files = $ftp->scanDir(Yii::getAlias('@ftpCatalogsImg'), false);
 
-        $ftp->get( $local_file,  $remote_file, $mode=FTP_ASCII);
+        foreach ($files as $file) {
 
-     }
-     
+            $local_file = Yii::getAlias('@localCatalogsImg') . DIRECTORY_SEPARATOR . $file[ 'name' ];
+            $remote_file = Yii::getAlias('@ftpCatalogsImg') . DIRECTORY_SEPARATOR . $file[ 'name' ];
 
-     
+            $ftp->get($local_file, $remote_file, $mode = FTP_ASCII);
+
+        }
+
+
     }
 
-    public static function parseCatalog($local_file)
-    {
+    public static function parseCatalog($local_file) {
         //сначала удалим весь каталог
         Catalogs::deleteAll();
 
@@ -76,33 +74,32 @@ class CatalogsFtp extends Catalogs
 
             foreach ($xml as $catalogXML) {
                 self::SaveCatalog($catalogXML);
-                }
+            }
 
             // обновим индексы lft rgt level
             self::updateIndex();
-        
-        } 
+
+        }
         else {
             exit('Не удалось открыть файл catalog.xml.');
         }
     }
 
-     public static function SaveCatalog($catalogXML)
-    {
-        
-        $catalog = Catalogs::findOne($catalogXML['id']);
+    public static function SaveCatalog($catalogXML) {
 
-        if ( is_null($catalog)) {
+        $catalog = Catalogs::findOne($catalogXML[ 'id' ]);
+
+        if (is_null($catalog)) {
             // создаем запись каталога
             $catalog = new Catalogs;
 
             $catalog->detachBehaviors();
 
-            $catalog->catalog_id = $catalogXML['id'];
-            $catalog->id_parent = $catalogXML['id_parent'];
-            $catalog->name = $catalogXML['name'];
-            $catalog->description = $catalogXML['description'];
-            $catalog->level = $catalogXML['level'];
+            $catalog->catalog_id = $catalogXML[ 'id' ];
+            $catalog->id_parent = $catalogXML[ 'id_parent' ];
+            $catalog->name = $catalogXML[ 'name' ];
+            $catalog->description = $catalogXML[ 'description' ];
+            $catalog->level = $catalogXML[ 'level' ];
             // $catalog->root = $catalogXML['root'];
 
             $catalog->save(false);
@@ -111,11 +108,11 @@ class CatalogsFtp extends Catalogs
             // обновляем запись каталога
             $catalog->detachBehaviors();
 
-            $catalog->catalog_id = $catalogXML['id'];
-            $catalog->id_parent = $catalogXML['id_parent'];
-            $catalog->name = $catalogXML['name'];
-            $catalog->description = $catalogXML['description'];
-            $catalog->level = $catalogXML['level'];
+            $catalog->catalog_id = $catalogXML[ 'id' ];
+            $catalog->id_parent = $catalogXML[ 'id_parent' ];
+            $catalog->name = $catalogXML[ 'name' ];
+            $catalog->description = $catalogXML[ 'description' ];
+            $catalog->level = $catalogXML[ 'level' ];
             // $catalog->root = $catalogXML['root'];
 
             $catalog->save(false);
@@ -123,35 +120,32 @@ class CatalogsFtp extends Catalogs
 
     }
 
-    public static function updateIndex()
-    {
+    public static function updateIndex() {
 
-            mysql_connect('localhost','root','') or die(mysql_error());
-            mysql_select_db('distributive') or die(mysql_error());
-            $s_query = "SELECT `catalog_id`,`id_parent` FROM `catalogs`";
-            $i_result = mysql_query($s_query);
-            $a_rows = array();
-            while ($a_rows[] = mysql_fetch_assoc($i_result));
-            $a_link = array();
-            foreach($a_rows as $a_row) 
-            {
-            $i_father_id = $a_row['id_parent'];
-            $i_child_id = $a_row['catalog_id'];
+        mysql_connect('localhost', 'root', '') or die(mysql_error());
+        mysql_select_db('distributive') or die(mysql_error());
+        $s_query = "SELECT `catalog_id`,`id_parent` FROM `catalogs`";
+        $i_result = mysql_query($s_query);
+        $a_rows = [ ];
+        while ($a_rows[] = mysql_fetch_assoc($i_result)) ;
+        $a_link = [ ];
+        foreach ($a_rows as $a_row) {
+            $i_father_id = $a_row[ 'id_parent' ];
+            $i_child_id = $a_row[ 'catalog_id' ];
             // if ($i_child_id =="") {
             // continue;
             // }
             // echo "__".$i_child_id."\n" ;
-            
-            if (!array_key_exists($i_father_id,$a_link)) 
-            {
-                $a_link[$i_father_id]=array();
+
+            if (!array_key_exists($i_father_id, $a_link)) {
+                $a_link[ $i_father_id ] = [ ];
             }
-            $a_link[$i_father_id][]=$i_child_id;
-            }
+            $a_link[ $i_father_id ][] = $i_child_id;
+        }
 
 
-            $o_tree_transformer = new Tree($a_link);
-            $o_tree_transformer->traverse(0);
+        $o_tree_transformer = new Tree($a_link);
+        $o_tree_transformer->traverse(0);
     }
 
 }

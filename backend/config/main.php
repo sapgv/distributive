@@ -15,15 +15,23 @@ return [
 
     'aliases' => [
 
-        '@ftpGoodsImg' => 'images/goods',
-        '@localGoodsImg' => '@frontend/web/images/products/gallery',
+        //xml
+        '@ftpXml' => 'xml',
+        '@localXml' => '@frontend/web/xml',
 
-        '@ftpCatalogsImg' => '/images/catalogs',
+
+        //images
+        '@ftpProductsImg' => 'images/products',
+        '@localProductsImg' => '@frontend/web/images/products/gallery',
+
+        '@ftpCatalogsImg' => 'images/catalogs',
         '@localCatalogsImg' => '@frontend/web/images/catalogs/gallery',
 
-        '@localGalleryImg' => '@frontend/web/images/products/gallery',
-
         '@localFiles' => '@app/files',
+
+
+
+
 
 
     ],
