@@ -119,9 +119,9 @@ class ProductsController extends Controller {
 
         $model = $this->findModel($product_id);
 
-        $searchModel = new CharacteristicsSearch();
+//        $searchModel = new CharacteristicsSearch();
 
-        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, $model);
+//        $dataProvider = $searchModel->search(Yii::$app->request->queryParams, $model);
 
 
         if ( $model->load(Yii::$app->request->post()) && $model->save() )
@@ -134,8 +134,8 @@ class ProductsController extends Controller {
             return $this->render(
                 'update', [
                 'model' => $model,
-                                'characteristicsSearchModel' => $searchModel,
-                                'characteristicsDataProvider' => $dataProvider,
+//                                'characteristicsSearchModel' => $searchModel,
+//                                'characteristicsDataProvider' => $dataProvider,
             ]
             );
         }

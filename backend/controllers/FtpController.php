@@ -40,6 +40,7 @@ class FtpController extends Controller
     public function actionUploadProducts()
     {
         ProductsFtp::getFiles();
+        ProductsFtp::getContentImages();
 
         GalleryPhotoFtp::getFiles();
         GalleryPhotoFtp::getImages();
@@ -54,6 +55,8 @@ class FtpController extends Controller
         PropertiesFtp::getFiles();//свойства
         ProductsPropertiesFtp::getFiles(); //свойства номенклатуры
 
+        \Yii::$app->getSession()->setFlash('success', 'Your Text Here..');
+        return $this->redirect('index');
 
 //        TechcharFtp::getFiles(); //Технические характеристики
 //        ProductsTechCharAssignmentFtp::getFiles(); //Товары - технические характеристики

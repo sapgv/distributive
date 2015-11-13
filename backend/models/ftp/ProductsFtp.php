@@ -63,7 +63,7 @@ class ProductsFtp extends Products {
             $product->gallery_id = (int)$productXML->gallery_id;
             $product->name = (string)$productXML->name;
             $product->precontent = (string)$productXML->precontent;
-//          $product->content = (string) $productXML->content;
+          $product->content = (string) $productXML->content;
             $product->popular = (int)$productXML->popular;
             $product->price = (int)$productXML->price;
 //          $product->count = (int) $productXML->count;
@@ -78,7 +78,7 @@ class ProductsFtp extends Products {
             $product->gallery_id = (int)$productXML->gallery_id;
             $product->name = (string)$productXML->name;
             $product->precontent = (string)$productXML->precontent;
-//            $product->content = (string) $productXML->content;
+            $product->content = (string) $productXML->content;
             $product->popular = (int)$productXML->popular;
             $product->price = (int)$productXML->price;
 //            $product->count = (int) $productXML->count;
@@ -87,6 +87,31 @@ class ProductsFtp extends Products {
         }
 
     }
+
+    public static function getContentImages() {
+
+        $host = Yii::$app->params[ 'ftp' ][ 'host' ];
+        $name = Yii::$app->params[ 'ftp' ][ 'name' ];
+        $pass = Yii::$app->params[ 'ftp' ][ 'pass' ];
+        $ftp = new FtpClient();
+        $ftp->connect($host);
+
+        $ftp->login($name, $pass);
+
+        $files = $ftp->scanDir(Yii::getAlias('@ftpContentImg'));
+
+        foreach ($files as $file) {
+
+            $local_file = Yii::getAlias('@localContentImg') . DIRECTORY_SEPARATOR . $file[ 'name' ];
+            $remote_file = Yii::getAlias('@ftpContentImg') . DIRECTORY_SEPARATOR . $file[ 'name' ];
+
+            $ftp->get($local_file, $remote_file, $mode = FTP_ASCII);
+
+        }
+
+
+    }
+
 
 
 }

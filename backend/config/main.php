@@ -24,6 +24,9 @@ return [
         '@ftpProductsImg' => 'images/products',
         '@localProductsImg' => '@frontend/web/images/products/gallery',
 
+        '@ftpContentImg' => 'images/content',
+        '@localContentImg' => '@frontend/web/images/content',
+
         '@ftpCatalogsImg' => 'images/catalogs',
         '@localCatalogsImg' => '@frontend/web/images/catalogs/gallery',
 

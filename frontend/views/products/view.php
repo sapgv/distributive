@@ -128,7 +128,7 @@ JS;
 
     </div>
 
-    <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px;">
+    <div class="roww col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top:15px;">
         <ul id="tabs" class="nav-shop nav-shop-tabs" data-tabs="tabs">
             <li class="active"><a href="#decription" data-toggle="tab" class="text-muted">Описание</a></li>
             <li><a href="#details" data-toggle="tab" class="text-muted">Характеристики</a></li>
@@ -136,9 +136,10 @@ JS;
 
         </ul>
         <div id="my-tab-content" class="tab-content">
-            <div class="tab-pane active" id="decription" style="padding-top:30px;min-height:300px;">
+            <div class="tab-pane active" id="decription" style="padding-top:15px;padding-bottom:15px;min-height:300px;">
 
-                <p class="text-muted"><?php echo $model->precontent; ?></p>
+<!--                <p class="text-muted">--><?php //echo $model->precontent; ?><!--</p>-->
+                <p class="text-muted"><?php echo $model->content; ?></p>
 
 
             </div>
