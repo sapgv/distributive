@@ -9,7 +9,10 @@
 namespace common\models\properties;
 
 
-class ProductsProperties extends \yii\db\ActiveRecord {
+use yii\db\ActiveRecord;
+
+class ProductsProperties extends ActiveRecord {
+
     /**
      * @inheritdoc
      */
@@ -33,9 +36,9 @@ class ProductsProperties extends \yii\db\ActiveRecord {
      */
     public function attributeLabels() {
         return [
-            'product_id' => 'Код товара',
+            'product_id'    => 'Код товара',
             'property_name' => 'Свойство',
-            'value_name'     => 'Значение',
+            'value_name'    => 'Значение',
         ];
     }
 

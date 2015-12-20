@@ -5,7 +5,6 @@ namespace frontend\controllers;
 use Yii;
 use yii\web\Controller;
 use common\models\ViewList;
-use yii\web\Cookie;
 
 class CookieController extends Controller {
 

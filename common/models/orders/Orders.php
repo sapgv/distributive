@@ -3,13 +3,29 @@
 namespace common\models\orders;
 
 use Yii;
+use yii\db\ActiveRecord;
 use yii2mod\ftp\FtpClient;
 use yii\behaviors\TimestampBehavior;
 use yii\db\Expression;
-use common\models\orders\OrdersProducts;
-use yii\helpers\Html;
 
-class Orders extends \yii\db\ActiveRecord
+/**
+ * This is the model class for table "orders".
+ *
+ * @property integer $order_id
+ * @property integer $product_id
+ * @property string $name
+ * @property float $quantity
+ * @property float $price
+ * @property float $summa
+ * @property string $status
+ * @property string $email
+ * @property string $phone
+ * @property string $delivery
+ * @property string $address
+ * @property string $comment
+ */
+
+class Orders extends ActiveRecord
 {
 	
 	const STATUS_NEW = 'new';

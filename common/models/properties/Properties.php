@@ -9,7 +9,10 @@
 namespace common\models\properties;
 
 
-class Properties extends \yii\db\ActiveRecord {
+use yii\db\ActiveRecord;
+
+class Properties extends ActiveRecord {
+
     /**
      * @inheritdoc
      */

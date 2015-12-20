@@ -67,6 +67,7 @@ if ( $searchModel->price_max == 0) {
 else {
 	$price_max_val = $searchModel->price_max;	
 }
+
 echo $this->render('_search', [
         'model' => $searchModel,
         'catalog' =>$model,

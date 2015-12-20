@@ -34,6 +34,7 @@ class FtpController extends Controller
         CatalogsFtp::getFiles();
         CatalogsFtp::getImages();
 
+        \Yii::$app->getSession()->setFlash('success', 'Каталог успешно загружен');
         return $this->redirect('index');
     }
 
@@ -45,7 +46,7 @@ class FtpController extends Controller
         GalleryPhotoFtp::getFiles();
         GalleryPhotoFtp::getImages();
 
-        \Yii::$app->getSession()->setFlash('success', 'Your Text Here..');
+        \Yii::$app->getSession()->setFlash('success', 'Товары успешно загружены');
         return $this->redirect('index');
     }
 
@@ -55,7 +56,7 @@ class FtpController extends Controller
         PropertiesFtp::getFiles();//свойства
         ProductsPropertiesFtp::getFiles(); //свойства номенклатуры
 
-        \Yii::$app->getSession()->setFlash('success', 'Your Text Here..');
+        \Yii::$app->getSession()->setFlash('success', 'Характеристики загружены');
         return $this->redirect('index');
 
 //        TechcharFtp::getFiles(); //Технические характеристики

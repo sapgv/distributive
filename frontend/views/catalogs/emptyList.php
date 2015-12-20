@@ -41,6 +41,15 @@ use yii\widgets\LinkPager;
 
 		echo Html::endTag('div');
 
+
+		echo $this->render('_search', [
+			'model' => $searchModel,
+			'catalog' =>$model,
+			'price_min'=>$price_min,
+			'price_max'=>$price_max,
+			'price_min_val'=>$price_min_val,
+			'price_max_val'=>$price_max_val
+		]);
 		 ?>
 		 
 		

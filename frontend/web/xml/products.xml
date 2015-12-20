@@ -1,0 +1,1501 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product>
+		<product_id>49</product_id>
+		<catalog_id>8</catalog_id>
+		<gallery_id>49</gallery_id>
+		<name>1С:Бухгалтерия 8. Базовая версия</name>
+		<precontent/>
+		<content/>
+		<popular>0</popular>
+		<price>3300</price>
+	</product>
+	<product>
+		<product_id>50</product_id>
+		<catalog_id>8</catalog_id>
+		<gallery_id>50</gallery_id>
+		<name>1C:Бухгалтерия 8 ПРОФ</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;&lt;span style=' font-weight: bold;'&gt;&amp;quot;1С:Бухгалтерия 8&lt;/span&gt;&amp;quot; — универсальная программа массового назначения для автоматизации бухгалтерского и налогового учета, включая подготовку обязательной (регламентированной) отчетности. Это готовое решение для ведения учета в организациях, осуществляющих любые виды коммерческой деятельности: оптовую и розничную торговлю, комиссионную торговлю (в том числе субкомиссию), оказание услуг, производство и т.д. Кроме того, с помощью &amp;quot;1С:Бухгалтерии 8&amp;quot; могут вести учет индивидуальные предприниматели, применяющие упрощенную систему налогообложения или общий режим налогообложения. &lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;Бухгалтерский и налоговый учет реализованы в соответствии с действующим законодательством Российской Федерации. В состав конфигурации включен план счетов бухгалтерского учета, настроенный в соответствии с Приказом Минфина РФ &amp;quot;Об утверждении плана счетов бухгалтерского учета финансово-хозяйственной деятельности организаций и инструкции по его применению&amp;quot; от 31 октября 2000 г. № 94н. &lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;Методика бухгалтерского учета обеспечивает одновременную регистрацию каждой записи хозяйственной операции как по счетам бухгалтерского учета, так и по необходимым разрезам аналитического учета, количественного и валютного учета. Пользователи могут самостоятельно управлять методикой учета в рамках настройки учетной политики, создавать новые субсчета и разрезы аналитического учета. &lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;&lt;span style=' font-weight: bold;'&gt;&amp;quot;1С:Бухгалтерия 8&lt;/span&gt;&amp;quot; обеспечивает решение всех задач, стоящих перед бухгалтерской службой предприятия, если бухгалтерская служба полностью отвечает за учет на предприятии, включая, например, выписку первичных документов, учет продаж и т.д. Кроме того, информацию об отдельных видах деятельности, торговых и производственных операциях, могут вводить сотрудники смежных служб предприятия, не являющиеся бухгалтерами. В последнем случае за бухгалтерской службой остается методическое руководство и контроль за настройками информационной базы, обеспечивающими автоматическое отражение документов в бухгалтерском и налоговом учете. &lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;Данное прикладное решение также можно использовать только для ведения бухгалтерского и налогового учета, а задачи автоматизации других служб, например, отдела продаж, решать специализированными конфигурациями или другими системами. &lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify'&gt;Предметная область, автоматизируемая &amp;quot;1С:Бухгалтерией 8&amp;quot;, иллюстрируется следующей схемой:&lt;br&gt;
+&lt;br&gt;
+&lt;img src='http://distributive/images/content/50_image001.png' width='319' height='298'/&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>1</popular>
+		<price>13000</price>
+	</product>
+	<product>
+		<product_id>51</product_id>
+		<catalog_id>9</catalog_id>
+		<gallery_id>51</gallery_id>
+		<name>1С:Зарплата и Управление Персоналом 8. Базовая версия</name>
+		<precontent/>
+		<content/>
+		<popular>0</popular>
+		<price>17400</price>
+	</product>
+	<product>
+		<product_id>52</product_id>
+		<catalog_id>9</catalog_id>
+		<gallery_id>52</gallery_id>
+		<name>1С:Зарплата и Управление персоналом 8 ПРОФ</name>
+		<precontent/>
+		<content/>
+		<popular>0</popular>
+		<price>4600</price>
+	</product>
+	<product>
+		<product_id>53</product_id>
+		<catalog_id>10</catalog_id>
+		<gallery_id>53</gallery_id>
+		<name>1C:Управление торговлей 8. Редакция 11. Базовая версия</name>
+		<precontent/>
+		<content/>
+		<popular>0</popular>
+		<price>4600</price>
+	</product>
+	<product>
+		<product_id>54</product_id>
+		<catalog_id>10</catalog_id>
+		<gallery_id>54</gallery_id>
+		<name>1C:Управление торговлей 8. Редакция 11. ПРОФ</name>
+		<precontent/>
+		<content/>
+		<popular>0</popular>
+		<price>17400</price>
+	</product>
+	<product>
+		<product_id>21</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>21</gallery_id>
+		<name>Kaspersky Anti-Virus на 2 ПК</name>
+		<precontent>Kaspersky Anti-Virus — это решение для базовой защиты компьютера от основных видов интернет-угроз.</precontent>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Anti-Virus — это решение для базовой защиты компьютера от основных видов интернет-угроз.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Антивирусная защита от вредоносных программ&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Высокая скорость работы&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Удобное управление защитой&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/21_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ОСНОВЫ БЕЗОПАСНОСТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество прекрасных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Вам нужна хотя бы базовая защита, такая как наш антивирус, чтобы сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/21_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/21_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления различными функциями защиты. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>1</popular>
+		<price>1200</price>
+	</product>
+	<product>
+		<product_id>22</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>22</gallery_id>
+		<name>Kaspersky Anti-Virus на 2 ПК (продление)</name>
+		<precontent>Kaspersky Anti-Virus — это решение для базовой защиты компьютера от основных видов интернет-угроз.</precontent>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Anti-Virus — это решение для базовой защиты компьютера от основных видов интернет-угроз.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Антивирусная защита от вредоносных программ&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Высокая скорость работы&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Удобное управление защитой&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/22_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ОСНОВЫ БЕЗОПАСНОСТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;В интернете вы делаете множество прекрасных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Вам нужна хотя бы базовая защита, такая как наш антивирус, чтобы сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/22_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/22_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления различными функциями защиты. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>990</price>
+	</product>
+	<product>
+		<product_id>23</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>23</gallery_id>
+		<name>Kaspersky Internet Security на 2 ПК</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Оптимальный набор защитных функций&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Безопасность ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Конфиденциальность личности и защита общения&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/23_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/23_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/23_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/23_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/23_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/23_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/23_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1600</price>
+	</product>
+	<product>
+		<product_id>24</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>24</gallery_id>
+		<name>Kaspersky Internet Security на 2 ПК (продление)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Оптимальный набор защитных функций&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Безопасность ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Конфиденциальность личности и защита общения&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/24_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/24_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/24_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/24_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/24_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/24_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/24_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1320</price>
+	</product>
+	<product>
+		<product_id>25</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>25</gallery_id>
+		<name>Kaspersky Internet Security на 3 ПК</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Оптимальный набор защитных функций&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Безопасность ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Конфиденциальность личности и защита общения&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/25_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/25_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/25_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/25_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/25_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/25_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/25_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1990</price>
+	</product>
+	<product>
+		<product_id>26</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>26</gallery_id>
+		<name>Kaspersky Internet Security на 3 ПК (продление)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Оптимальный набор защитных функций&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Безопасность ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Конфиденциальность личности и защита общения&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/26_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/26_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/26_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/26_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/26_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/26_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/26_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1490</price>
+	</product>
+	<product>
+		<product_id>27</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>27</gallery_id>
+		<name>Kaspersky Internet Security на 5 ПК</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Оптимальный набор защитных функций&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Безопасность ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Конфиденциальность личности и защита общения&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/27_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/27_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/27_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/27_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/27_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/27_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/27_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>3900</price>
+	</product>
+	<product>
+		<product_id>28</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>28</gallery_id>
+		<name>Kaspersky Internet Security на 5 ПК (продление)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Оптимальный набор защитных функций&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Безопасность ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Конфиденциальность личности и защита общения&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/28_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/28_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/28_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/28_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/28_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/28_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/28_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>2900</price>
+	</product>
+	<product>
+		<product_id>55</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>55</gallery_id>
+		<name>Kaspersky Total Security на 2 ПК</name>
+		<precontent>Kaspersky Total Security для всех устройств — максимальная защита ваших финансов, конфиденциальности, семьи и личных данных в интернете.</precontent>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Максимальная защита ценной информации&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Простой способ организовать пароли и учетные записи&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ПАРОЛИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Сохраните свои пароли и аккаунты в безопасности&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;У всех нас есть множество паролей. Придумывать их, хранить и регулярно восстанавливать — неприятная трата времени и дополнительный риск. Избавьте себя от лишних забот — поручите создание, хранение, подстановку и синхронизацию паролей специальному приложению на каждом из ваших устройств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ЦЕННЫЕ &lt;/span&gt;&lt;span style=' font-weight: bold;'&gt;ФАЙЛЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Берегите свои &lt;/span&gt;&lt;span style=' font-weight: bold;'&gt;фотографии, музыку и документы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;Ценные файлы необходимо дополнительно защищать. Резервное копирование по расписанию — отличное решение, если вы хотите сохранить ваши архивы даже в случае физической поломки компьютера. Для надежности вы также можете шифровать данные, так чтобы никто кроме вас не смог прочитать их, даже если получит к ним доступ.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image008.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/55_image009.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1990</price>
+	</product>
+	<product>
+		<product_id>56</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>56</gallery_id>
+		<name>Kaspersky Total Security на 2 ПК (продление)</name>
+		<precontent>Kaspersky Total Security для всех устройств — максимальная защита ваших финансов, конфиденциальности, семьи и личных данных в интернете.</precontent>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Максимальная защита ценной информации&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Простой способ организовать пароли и учетные записи&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ПАРОЛИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Сохраните свои пароли и аккаунты в безопасности&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;У всех нас есть множество паролей. Придумывать их, хранить и регулярно восстанавливать — неприятная трата времени и дополнительный риск. Избавьте себя от лишних забот — поручите создание, хранение, подстановку и синхронизацию паролей специальному приложению на каждом из ваших устройств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ЦЕННЫЕ &lt;/span&gt;&lt;span style=' font-weight: bold;'&gt;ФАЙЛЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Берегите свои &lt;/span&gt;&lt;span style=' font-weight: bold;'&gt;фотографии, музыку и документы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;Ценные файлы необходимо дополнительно защищать. Резервное копирование по расписанию — отличное решение, если вы хотите сохранить ваши архивы даже в случае физической поломки компьютера. Для надежности вы также можете шифровать данные, так чтобы никто кроме вас не смог прочитать их, даже если получит к ним доступ.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image008.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/56_image009.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1490</price>
+	</product>
+	<product>
+		<product_id>57</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>57</gallery_id>
+		<name>Kaspersky Total Security на 3 ПК</name>
+		<precontent>Kaspersky Total Security для всех устройств — максимальная защита ваших финансов, конфиденциальности, семьи и личных данных в интернете.</precontent>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Максимальная защита ценной информации&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Простой способ организовать пароли и учетные записи&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ПАРОЛИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Сохраните свои пароли и аккаунты в безопасности&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;У всех нас есть множество паролей. Придумывать их, хранить и регулярно восстанавливать — неприятная трата времени и дополнительный риск. Избавьте себя от лишних забот — поручите создание, хранение, подстановку и синхронизацию паролей специальному приложению на каждом из ваших устройств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ЦЕННЫЕ &lt;/span&gt;&lt;span style=' font-weight: bold;'&gt;ФАЙЛЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Берегите свои &lt;/span&gt;&lt;span style=' font-weight: bold;'&gt;фотографии, музыку и документы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;Ценные файлы необходимо дополнительно защищать. Резервное копирование по расписанию — отличное решение, если вы хотите сохранить ваши архивы даже в случае физической поломки компьютера. Для надежности вы также можете шифровать данные, так чтобы никто кроме вас не смог прочитать их, даже если получит к ним доступ.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image008.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/57_image009.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>2390</price>
+	</product>
+	<product>
+		<product_id>58</product_id>
+		<catalog_id>13</catalog_id>
+		<gallery_id>58</gallery_id>
+		<name>Kaspersky Total Security на 3 ПК (продление)</name>
+		<precontent>Kaspersky Total Security для всех устройств — максимальная защита ваших финансов, конфиденциальности, семьи и личных данных в интернете.</precontent>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p style='line-height: 1.15'&gt;Kaspersky Internet Security для всех устройств — это надежное и удобное решение для защиты вашей жизни в интернете.&lt;/p&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style='line-height: 1.15'&gt;Максимальная защита ценной информации&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Простой способ организовать пароли и учетные записи&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита ваших денег в интернете&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Защита детей в интернете на любом устройстве&lt;/li&gt;
+&lt;li style='line-height: 1.15'&gt;Управление защитой всей семьи&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style='line-height: 1.15'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image001.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;БЕЗОПАСНОСТЬ &lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;Защитите вашу жизнь в интернете&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;В интернете вы делаете множество интересных и важных вещей: работаете и отдыхаете, получаете новые знания и встречаете новых друзей. Все это стоит того, чтобы позаботиться о защите и сохранить свою жизнь в интернете в безопасности.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image002.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;WINDOWS, MAC и ANDROID &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Установите защиту на все свои устройства&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;С какого бы устройства вы ни выходили в интернет, вы всегда будете надежно защищены. Кроме того, если вы потеряете смартфон или планшет, то сможете найти его благодаря геолокационным сервисам в составе защиты для Android.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image003.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;КОНФИДЕНЦИАЛЬНОСТЬ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Оградите себя от вторжений в ваше личное пространство&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Никто не имеет права получать доступ к вашим персональным данным и использовать их в корыстных целях. Защитите себя от подглядывания за вами через веб-камеру, сбора информации о вас в интернете и мошенничества.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image004.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕНЬГИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Защитите свои финансовые данные*&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Платежи в интернет-магазинах и на сайтах услуг, интернет-банкинг — это самое важное, что нужно защищать в интернете, потому что в этих операциях участвуют ваши реальные деньги. Открывая платежные страницы в специальном защищенном режиме, вы можете быть уверены в безопасности ваших средств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image005.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ДЕТИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Помогите своим детям безопасно познавать мир&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Важно быть в курсе, чем занимаются дети в интернете, и сколько времени они проводят перед экраном. Мошенники и другой криминал, посещение неподходящих сайтов, интернет-хулиганство — очень сложно вовремя узнать, если у вашего ребенка проблемы. С новыми технологиями для защиты детей вы сможете защитить их от опасностей интернета.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image006.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ПАРОЛИ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Сохраните свои пароли и аккаунты в безопасности&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;У всех нас есть множество паролей. Придумывать их, хранить и регулярно восстанавливать — неприятная трата времени и дополнительный риск. Избавьте себя от лишних забот — поручите создание, хранение, подстановку и синхронизацию паролей специальному приложению на каждом из ваших устройств.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image007.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;ЦЕННЫЕ &lt;/span&gt;&lt;span style=' font-weight: bold;'&gt;ФАЙЛЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Берегите свои &lt;/span&gt;&lt;span style=' font-weight: bold;'&gt;фотографии, музыку и документы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;Ценные файлы необходимо дополнительно защищать. Резервное копирование по расписанию — отличное решение, если вы хотите сохранить ваши архивы даже в случае физической поломки компьютера. Для надежности вы также можете шифровать данные, так чтобы никто кроме вас не смог прочитать их, даже если получит к ним доступ.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image008.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;СКОРОСТЬ РАБОТЫ &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Получите мощную защиту без замедления системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Используйте интернет на полной скорости, наши технологии не замедлят его работы, потому что все проверки выполняются в фоновом режиме, а обновления баз и программы приходят очень небольшими порциями.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;img src='http://distributive/images/content/58_image009.png' width='40' height='40'/&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;span style=' font-weight: bold;'&gt;УДОБСТВО И ПРОСТОТА &lt;/span&gt;&lt;br&gt;
+&lt;span style=' font-weight: bold;'&gt;Держите безопасность вашей жизни под контролем&lt;/span&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: justify;margin-left: 20pt'&gt;Теперь у вас есть специальная учетная запись для организации защиты: подключения того или иного устройства к лицензии, управления защитой на компьютерах родных, управления смартфоном и планшетом. Все это вы можете делать в своем Личном кабинете на портале My Kaspersky.&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p style='line-height: 1.15;text-align: left;margin-left: 20pt'&gt;* На платформах Windows и Mac&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1790</price>
+	</product>
+	<product>
+		<product_id>29</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>29</gallery_id>
+		<name>Dr.Web на 1 ПК (электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>990</price>
+	</product>
+	<product>
+		<product_id>30</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>30</gallery_id>
+		<name>Dr.Web на 2 ПК (коробка)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1290</price>
+	</product>
+	<product>
+		<product_id>31</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>31</gallery_id>
+		<name>Dr.Web на 3 ПК (электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1990</price>
+	</product>
+	<product>
+		<product_id>32</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>32</gallery_id>
+		<name>Dr.Web на 4 ПК (электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>2550</price>
+	</product>
+	<product>
+		<product_id>33</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>33</gallery_id>
+		<name>Dr.Web на 5 ПК (электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>3150</price>
+	</product>
+	<product>
+		<product_id>34</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>34</gallery_id>
+		<name>Dr.Web на 1 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>594</price>
+	</product>
+	<product>
+		<product_id>35</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>35</gallery_id>
+		<name>Dr.Web на 2 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>834</price>
+	</product>
+	<product>
+		<product_id>36</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>36</gallery_id>
+		<name>Dr.Web на 3 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1194</price>
+	</product>
+	<product>
+		<product_id>37</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>37</gallery_id>
+		<name>Dr.Web на 4 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1530</price>
+	</product>
+	<product>
+		<product_id>38</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>38</gallery_id>
+		<name>Dr.Web на 5 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1890</price>
+	</product>
+	<product>
+		<product_id>39</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>39</gallery_id>
+		<name>Dr. Web® Security Space на 1 ПК</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1290</price>
+	</product>
+	<product>
+		<product_id>40</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>40</gallery_id>
+		<name>Dr. Web® Security Space на 2 ПК</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1990</price>
+	</product>
+	<product>
+		<product_id>41</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>41</gallery_id>
+		<name>Dr. Web® Security Space на 3 ПК (электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>2340</price>
+	</product>
+	<product>
+		<product_id>42</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>42</gallery_id>
+		<name>Dr. Web® Security Space на 4 ПК (электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>3000</price>
+	</product>
+	<product>
+		<product_id>43</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>43</gallery_id>
+		<name>Dr. Web® Security Space на 5 ПК (электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>3500</price>
+	</product>
+	<product>
+		<product_id>44</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>44</gallery_id>
+		<name>Dr. Web® Security Space на 1 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>774</price>
+	</product>
+	<product>
+		<product_id>45</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>45</gallery_id>
+		<name>Dr. Web® Security Space на 2 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>960</price>
+	</product>
+	<product>
+		<product_id>46</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>46</gallery_id>
+		<name>Dr. Web® Security Space на 3 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1404</price>
+	</product>
+	<product>
+		<product_id>47</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>47</gallery_id>
+		<name>Dr. Web® Security Space на 4 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>1800</price>
+	</product>
+	<product>
+		<product_id>48</product_id>
+		<catalog_id>14</catalog_id>
+		<gallery_id>48</gallery_id>
+		<name>Dr. Web® Security Space на 5 ПК (продление электронно)</name>
+		<precontent/>
+		<content>&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=Edge" /&gt;
+&lt;meta name="format-detection" content="telephone=no" /&gt;
+&lt;style type="text/css"&gt;
+body{margin:0;padding:8px;overflow:auto;width:100%;height:100%;}
+p{line-height:1.15;margin:0;}
+ol,ul{margin-top:0;margin-bottom:0;}
+img{border:none;}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content>
+		<popular>0</popular>
+		<price>2100</price>
+	</product>
+</products>

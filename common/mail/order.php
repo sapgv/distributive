@@ -1,13 +1,7 @@
 <?php
-use yii\helpers\Html;
-use yii\helpers\Url; 
-use yii\bootstrap\Button;
-use yii\widgets\ActiveForm;
-use yii\bootstrap\Alert;
-use yii\grid\GridView;
+
 use common\models\products\ProductsCartSearch;
 
-use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
 
 /* @var $this \yii\web\View view component instance */
 /* @var $message \yii\mail\BaseMessage instance of newly created mail message */

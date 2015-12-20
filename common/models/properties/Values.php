@@ -9,6 +9,7 @@
 namespace common\models\properties;
 
 use Yii;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "values".
@@ -17,36 +18,33 @@ use Yii;
  * @property string $name
  *
  */
-class Values extends \yii\db\ActiveRecord
-{
+class Values extends ActiveRecord {
+
     /**
      * @inheritdoc
      */
-    public static function tableName()
-    {
+    public static function tableName() {
         return 'values';
     }
 
     /**
      * @inheritdoc
      */
-    public function rules()
-    {
+    public function rules() {
         return [
-            [['value_id', 'name'], 'required'],
-            [['value_id'], 'integer'],
-            [['name'], 'string', 'max' => 255]
+            [ [ 'value_id', 'name' ], 'required' ],
+            [ [ 'value_id' ], 'integer' ],
+            [ [ 'name' ], 'string', 'max' => 255 ],
         ];
     }
 
     /**
      * @inheritdoc
      */
-    public function attributeLabels()
-    {
+    public function attributeLabels() {
         return [
             'value_id' => 'Код',
-            'name' => 'Наименование',
+            'name'     => 'Наименование',
         ];
     }
 

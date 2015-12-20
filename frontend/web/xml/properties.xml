@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<properties>
+		<property>
+			<name>Бренд</name>
+		</property>
+		<property>
+			<name>Лицензия</name>
+		</property>
+	</properties>
+	<values>
+		<value>
+			<property_name>Бренд</property_name>
+			<name>1С</name>
+		</value>
+		<value>
+			<property_name>Бренд</property_name>
+			<name>Dr. Web</name>
+		</value>
+		<value>
+			<property_name>Бренд</property_name>
+			<name>Eset</name>
+		</value>
+		<value>
+			<property_name>Бренд</property_name>
+			<name>Kaspersky</name>
+		</value>
+	</values>
+	<products_properties>
+		<product_property>
+			<product_id>21</product_id>
+			<property_name>Бренд</property_name>
+			<value_name>Kaspersky</value_name>
+		</product_property>
+		<product_property>
+			<product_id>50</product_id>
+			<property_name>Бренд</property_name>
+			<value_name>1С</value_name>
+		</product_property>
+	</products_properties>
+</elements>

@@ -3,17 +3,13 @@
 namespace frontend\controllers;
 
 use Yii;
-use yii\filters\AccessControl;
 use yii\web\Controller;
-use yii\filters\VerbFilter;
 use common\models\catalogs\Catalogs;
 use common\models\products\ProductsCatalogSearch;
-use common\models\products\Products;
 use yii\web\NotFoundHttpException;
 
 class CatalogsController extends Controller
 {
-    
 
     public function actionView($catalog_id)
     {
@@ -22,8 +18,8 @@ class CatalogsController extends Controller
             throw new NotFoundHttpException;
         }
 
-
         $searchModel = new ProductsCatalogSearch();
+        /** @var Catalogs $model */
         $arrayResult = $searchModel->search(Yii::$app->request->queryParams,$model);
 
 
@@ -40,6 +36,10 @@ class CatalogsController extends Controller
         else {
             return $this->render('emptyList', [
             'model' => $model,
+            'searchModel'=>$searchModel,
+            'dataProvider'=>$arrayResult['dataProvider'],
+            'price_min'=>$arrayResult['price_min'],
+            'price_max'=>$arrayResult['price_max']
             ]);
         }
         

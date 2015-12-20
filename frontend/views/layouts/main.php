@@ -2,6 +2,7 @@
 
 
 use common\models\products\Products;
+use frontend\controllers\CartController;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
@@ -104,7 +105,8 @@ AppAsset::register($this);
                         <a href="<?php echo Url::toRoute('/cart/index') ?>">
                             <div class="cartContent pull-right"
                                  style="font-size:20px;background-color: #F1F2F2;padding: 15px 20px 15px 20px;">
-                                <?php echo Products::getCartContent(); ?>
+                                <?php echo CartController::getCartContent();
+                                ?>
                             </div>
                         </a>
 
@@ -136,7 +138,7 @@ AppAsset::register($this);
                         'encodeLabels' => false,
                         'items'        => [
                             ['label' => '<span>Главная</span>', 'url' => ['/site/index']],
-                            ['label' => '<span>Доставка</span>', 'url' => ['/site/delivery']],
+                            ['label' => '<span>Доставка и оплата</span>', 'url' => ['/site/delivery']],
                             ['label' => '<span>Контакты</span>', 'url' => ['/site/contact']],
                         ],
 

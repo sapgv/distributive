@@ -5,43 +5,40 @@ namespace common\models\products;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\products\Products;
-use common\models\catalogs;
+use common\models\catalogs\Catalogs;
+use frontend\controllers\CookieController;
 
 /**
  * ProductsSearch represents the model behind the search form about `app\models\Products`.
+ * @property string name
  */
- 
-
-class ProductsCatalogSearch extends Products
-{
+class ProductsCatalogSearch extends Products {
 
     const ALL = 'Все';
     const AVAILABLE = 'В наличии';
     const NOT_AVAILABLE = 'Под заказ';
-   
+
 
     public $name_catalog;
     public $price_min;
     public $price_max;
+
     /**
      * @inheritdoc
      */
-    public function rules()
-    {
+    public function rules() {
         return [
-            [['product_id', 'catalog_id'], 'integer'],
-            [['name_catalog'], 'string'],
-            [['name', 'name_catalog', 'price_min', 'price_max', 'comment', 'precontent', 'content'], 'safe'],
-            [['price'], 'number'],
+            [ [ 'product_id', 'catalog_id' ], 'integer' ],
+            [ [ 'name_catalog' ], 'string' ],
+            [ [ 'name', 'name_catalog', 'price_min', 'price_max', 'comment', 'precontent', 'content' ], 'safe' ],
+            [ [ 'price' ], 'number' ],
         ];
     }
 
     /**
      * @inheritdoc
      */
-    public function scenarios()
-    {
+    public function scenarios() {
         // bypass scenarios() implementation in the parent class
         return Model::scenarios();
     }
@@ -50,32 +47,32 @@ class ProductsCatalogSearch extends Products
      * Creates data provider instance with search query applied
      *
      * @param array $params
+     * @param Catalogs $catalog
      *
      * @return ActiveDataProvider
      */
-    public function search($params,$catalog)
-    {   
-        $productsID = [];
+    public function search($params, $catalog) {
 
-        $productsID = array_merge($productsID,$catalog->getProducts()->select('product_id')->asArray()->all());
-        
+        $viewList = CookieController::getViewList();
+        $productsID = [ ];
+
+        $productsID = array_merge($productsID, $catalog->getProducts()->select('product_id')->asArray()->all());
+
         foreach ($catalog->children()->all() as $child) {
-           $productsID = array_merge($productsID,$child->getProducts()->select('product_id')->asArray()->all());
+            $productsID = array_merge($productsID, $child->getProducts()->select('product_id')->asArray()->all());
         }
 
-
         $query = Products::find()
-        ->where(['product_id'=>$productsID])
-        ;
+            ->where([ 'product_id' => $productsID ]);
 
         $price_min = $query->min('price');
         $price_max = $query->max('price');
 
         $dataProvider = new ActiveDataProvider([
-            'query' => $query,
+            'query'      => $query,
 
             'pagination' => [
-                'pageSize' => 5,
+                'pageSize' => ($viewList == 'panel') ? 6 : 5,
             ],
 
         ]);
@@ -88,31 +85,30 @@ class ProductsCatalogSearch extends Products
             return $dataProvider;
         }
 
- 
 
-        $query->andFilterWhere(['like', 'name', $this->name]);
+        $query->andFilterWhere([ 'like', 'name', $this->name ]);
 
-            // print_r($this->price_min);
-        $query->andFilterWhere(['>=', 'price', $this->price_min]);
-        $query->andFilterWhere(['<=', 'price', $this->price_max]);
+        // print_r($this->price_min);
+        $query->andFilterWhere([ '>=', 'price', $this->price_min ]);
+        $query->andFilterWhere([ '<=', 'price', $this->price_max ]);
 
         //print_r($params['ProductsCatalogSearch']);
-        if ($params['ProductsCatalogSearch']['count'] == self::ALL) {
+        if ($params[ 'ProductsCatalogSearch' ][ 'count' ] == self::ALL) {
             // echo "всееее";
             // $query->andWhere('a > :a', ['a' => 'a'])
         }
-        elseif ($params['ProductsCatalogSearch']['count'] == self::AVAILABLE) {
+        elseif ($params[ 'ProductsCatalogSearch' ][ 'count' ] == self::AVAILABLE) {
             // echo "в наличиbbи";
             $query->andWhere('count > 0');
         }
-        elseif ($params['ProductsCatalogSearch']['count'] == self::NOT_AVAILABLE) {
+        elseif ($params[ 'ProductsCatalogSearch' ][ 'count' ] == self::NOT_AVAILABLE) {
             // echo "нетууу";
             $query->andWhere('count <= 0');
         }
 
         return [
-                'dataProvider'=>$dataProvider,
-                'price_min'=>$price_min,
-                'price_max'=>$price_max];
+            'dataProvider' => $dataProvider,
+            'price_min'    => $price_min,
+            'price_max'    => $price_max ];
     }
 }
